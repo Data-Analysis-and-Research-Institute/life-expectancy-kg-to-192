@@ -1,4 +1,4 @@
-% Springer LNNS (Lecture Notes in Networks and Systems) paper generated from the outputs of mlforle12.py
+﻿% Springer LNNS (Lecture Notes in Networks and Systems) paper generated from the outputs of mlforle12.py
 % Compile: pdflatex main && pdflatex main   (or: tectonic main.tex)
 % Uses Springer's proceedings class llncs.cls, the template LNNS uses (on CTAN / TeX Live / Overleaf).
 % The appendix table and figures are produced by make_paper_assets.py.
@@ -14,6 +14,7 @@
 \usepackage{cite}
 \usepackage{tikz}
 \usetikzlibrary{positioning,arrows.meta}
+\usepackage{xurl}
 \usepackage[hidelinks]{hyperref}
 \graphicspath{{life_figures/}}
 
@@ -22,11 +23,11 @@
 \title{An Experimental Framework for Life Expectancy Prediction from Single-Country Life-Factor Data}
 \titlerunning{Life Expectancy Prediction from Single-Country Data}
 
-% TODO: replace with the real author list
-% \author{Author Name}
-% \authorrunning{Author Name}
-% \institute{Paragon International University, Phnom Penh, Cambodia\\
-% \email{risaev@paragoniu.edu.kh}}
+% Author block kept commented for anonymous review; uncomment for the camera-ready version.
+% \author{Asina Bopushova\inst{1} \and Ruslan Isaev\inst{2}}
+% \authorrunning{A. Bopushova and R. Isaev}
+% \institute{Computer Science Department, Ala-Too International University, Bishkek, Kyrgyzstan \and
+% Computing Department, Westminster International University in Tashkent, Tashkent, Uzbekistan}
 
 \maketitle
 
@@ -156,12 +157,12 @@ given access to the cohort data.
 study's 12 features: age, sex, BMI, sleep, steps per day, physical activity, smoking, alcohol, body
 water, muscle mass, body fat and chronic disease. Cleaning fixes the decimal format and trailing
 spaces that created spurious categories, encodes physical activity ordinally and imputes one
-missing muscle-mass value with the median. The abridged life tables come from
-[\textbf{TODO: life-table source and release}]. They cover 192 countries for 2015--2023 with 19 age
-groups ($0$, $1$--$4$, \dots, $85+$), giving $q_x$, $l_x$ and $e_x$ (32{,}832 rows, no missing
-values), and are used as published; preprocessing only parses the age-group start and builds lagged
-panels. Code: [\textbf{TODO: repository URL}]. Ethics: [\textbf{TODO: approval body and reference
-number, informed consent, data availability}].
+missing muscle-mass value with the median. The abridged life tables come from the United Nations
+World Population Prospects 2024~\cite{wpp2024}. They cover 192 countries for 2015--2023 with 19 age
+groups, giving $q_x$, $l_x$ and $e_x$ (no missing values), and are used as published;
+preprocessing only parses age groups and builds lagged panels. Code: \url{https://github.com/Data-Analysis-and-Research-Institute/life-expectancy-kg-to-192}.
+Ethics: non-invasive, anonymised data from volunteers; no formal approval was sought
+[\textbf{TODO: exemption rule; consent, incl.\ parental for ages 16--17}].
 
 \textbf{Labelling and models.} For country $c$ and year $t$, participant $i$ of age $a_i$
 receives $y_i^{(c)} = e^{(c,t)}_{x(a_i)}$ with $x(a)=\max\{x_k : x_k\le a\}$. The reference is
@@ -208,10 +209,9 @@ State of Palestine; next largest 6.4) are excluded and reported separately.
 %---------------------------------------------------------------------------
 \section{Results}
 
-\textbf{Starting point.} Kyrgyz $e^0$ rose from 69.4 (2015) to 70.9 (2019), fell 1.7 years in
-2020 and reached 71.8 in 2023, rank 116 of 192 and 1.9 years below the world median. Kazakhstan
-(+2.7 years), Russia (+1.6), Uzbekistan (+0.6) and Tajikistan (+0.1) are ahead; Turkmenistan
-($-1.6$) is behind.
+\textbf{Starting point.} Kyrgyz $e^0$ fell 1.7 years in 2020 and reached 71.8 in 2023, rank 116
+of 192 and 1.9 years below the world median; Kazakhstan, Russia, Uzbekistan and Tajikistan are
+ahead and Turkmenistan behind.
 
 \subsection{Cohort Models}
 
@@ -280,22 +280,19 @@ E. No age/prox., age-group & 12.31 & 12.49 & 12.66 & $-$1 [$-$5, 2] & $-$3 [$-$1
 \centering
 \caption{Leave-one-age-group-out CV: group size, label and MAE (years) per held-out age group for
 scenarios B (all features) and E (no age, no proxies). The baseline is the same in B and E.}\label{tab:groups}
-\scriptsize
-\begin{tabular}{@{}lrrrrrrr@{}}
+\scriptsize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrrrrrr|r@{}}
 \toprule
-Age group & $n$ & $e(x)$ & Baseline & RF (B) & GB (B) & RF (E) & GB (E) \\
+Age group & 15--19 & 20--24 & 25--29 & 30--34 & 35--39 & 40--44 & 45--49 & 50--54 & 65--69 & Macro \\
 \midrule
-15--19 & 63 & 58.16 & 13.79 & 6.85 & 4.69 & 13.58 & 13.43 \\
-20--24 & 17 & 53.30 & 0.26 & 4.10 & 4.43 & 2.24 & 3.68 \\
-25--29 & 1 & 48.48 & 5.09 & 3.84 & 0.78 & 3.89 & 5.55 \\
-30--34 & 4 & 43.66 & 10.29 & 4.90 & 4.05 & 10.37 & 10.91 \\
-35--39 & 2 & 38.91 & 14.91 & 3.26 & 3.89 & 12.56 & 9.11 \\
-40--44 & 2 & 34.34 & 19.59 & 3.03 & 1.29 & 20.44 & 21.77 \\
-45--49 & 3 & 29.96 & 24.32 & 6.66 & 3.85 & 24.66 & 26.97 \\
-50--54 & 1 & 25.72 & 28.09 & 10.05 & 0.63 & 29.57 & 29.56 \\
-65--69 & 2 & 14.21 & 40.15 & 24.37 & 17.98 & 38.65 & 36.08 \\
+$n$ & 63 & 17 & 1 & 4 & 2 & 2 & 3 & 1 & 2 & \\
+$e(x)$ & 58.16 & 53.30 & 48.48 & 43.66 & 38.91 & 34.34 & 29.96 & 25.72 & 14.21 & \\
 \midrule
-Macro average & & & 17.39 & 7.45 & 4.62 & 17.33 & 17.45 \\
+Baseline & 13.79 & 0.26 & 5.09 & 10.29 & 14.91 & 19.59 & 24.32 & 28.09 & 40.15 & 17.39 \\
+RF (B) & 6.85 & 4.10 & 3.84 & 4.90 & 3.26 & 3.03 & 6.66 & 10.05 & 24.37 & 7.45 \\
+GB (B) & 4.69 & 4.43 & 0.78 & 4.05 & 3.89 & 1.29 & 3.85 & 0.63 & 17.98 & 4.62 \\
+RF (E) & 13.58 & 2.24 & 3.89 & 10.37 & 12.56 & 20.44 & 24.66 & 29.57 & 38.65 & 17.33 \\
+GB (E) & 13.43 & 3.68 & 5.55 & 10.91 & 9.11 & 21.77 & 26.97 & 29.56 & 36.08 & 17.45 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -366,9 +363,8 @@ target that varies between individuals, such as survival or health outcomes coll
 cyber-physical system, and population claims need cohorts from other countries. For the life
 tables, persistence was the strongest forecaster across origins, so the latest published table is
 the best basis for next-year labels, and ML forecasters must be reported against it.
-\emph{Limitations}: the cohort is small, young and mostly urban; the tables are not split by sex;
-only five forecast origins exist, four in or after the COVID-19 shock; and four source series are
-too unstable to forecast.
+\emph{Limitations}: a small, young, urban cohort; tables not split by sex; only five forecast
+origins, four in or after COVID-19.
 
 %---------------------------------------------------------------------------
 \begin{thebibliography}{99}
@@ -473,6 +469,10 @@ socioeconomic factors: a Bayesian network analysis. Journal of Sustainability Re
 \bibitem{vladimirskaya2023}
 Vladimirskaya, A., Kolosnitsyna, M.: Factors in life expectancy: a cross-country analysis. Voprosy
 Statistiki \textbf{30}(1), 70--89 (2023). \doi{10.34023/2313-6383-2023-30-1-70-89}
+
+\bibitem{wpp2024}
+United Nations, DESA, Population Division: World Population Prospects 2024. New York (2024).
+\url{https://population.un.org/wpp/}
 
 \bibitem{zhang2025}
 Zhang, H., Qiao, H., Li, X., et al.: Determinants of life expectancy in high longevity countries:
