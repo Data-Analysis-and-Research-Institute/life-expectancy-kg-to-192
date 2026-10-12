@@ -1,0 +1,11 @@
+Scenario,Model,MAE,Baseline_MAE,gain_%,ci_low_%,ci_high_%,group_perm_p
+A,Random Forest,1.869,6.249,70.094,62.549,78.326,
+A,Gradient Boosting,0.993,6.249,84.105,79.252,89.694,
+B,Random Forest,6.485,12.313,47.334,42.691,51.519,0.168
+B,Gradient Boosting,4.696,12.313,61.864,57.106,65.897,0.01
+C,Random Forest,4.61,6.249,26.219,12.74,37.799,
+C,Gradient Boosting,4.09,6.249,34.545,19.065,48.096,
+D,Random Forest,6.397,6.249,-2.373,-10.504,4.905,
+D,Gradient Boosting,7.02,6.249,-12.337,-29.056,0.945,
+E,Random Forest,12.485,12.313,-1.402,-5.401,2.312,0.564
+E,Gradient Boosting,12.658,12.313,-2.806,-12.355,6.237,0.535

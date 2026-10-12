@@ -1,0 +1,16 @@
+Scenario,n_features,CV,Model,MAE,RMSE,R2,permutation_p_value,MAE_gain_vs_baseline_%
+"A. Leaky reference: all features, random CV",12,random,Baseline,6.2724,9.6013,-0.035,,0.0
+"A. Leaky reference: all features, random CV",12,random,Random Forest,1.9709,4.5646,0.7637,,68.5777
+"A. Leaky reference: all features, random CV",12,random,Gradient Boosting,1.0261,2.9619,0.9002,,83.6406
+"B. All features, leave-one-age-group-out CV",12,group,Baseline,12.3128,14.3017,-1.2961,,0.0
+"B. All features, leave-one-age-group-out CV",12,group,Random Forest,6.4847,7.196,0.4187,0.6931,47.3335
+"B. All features, leave-one-age-group-out CV",12,group,Gradient Boosting,4.6957,5.2146,0.6947,0.1287,61.8635
+"C. No age, random CV",11,random,Baseline,6.2724,9.6013,-0.035,,0.0
+"C. No age, random CV",11,random,Random Forest,4.8328,7.7296,0.3283,0.0099,22.951
+"C. No age, random CV",11,random,Gradient Boosting,4.4019,7.1941,0.4185,0.0099,29.8208
+"D. No age + no age proxies, random CV",9,random,Baseline,6.2724,9.6013,-0.035,,0.0
+"D. No age + no age proxies, random CV",9,random,Random Forest,6.5247,9.7987,-0.078,0.2673,-4.0224
+"D. No age + no age proxies, random CV",9,random,Gradient Boosting,7.2042,10.6063,-0.2655,0.4554,-14.8559
+"E. No age + no proxies, age-group CV (strictest)",9,group,Baseline,12.3128,14.3017,-1.2961,,0.0
+"E. No age + no proxies, age-group CV (strictest)",9,group,Random Forest,12.4854,14.2902,-1.2924,1.0,-1.402
+"E. No age + no proxies, age-group CV (strictest)",9,group,Gradient Boosting,12.6582,14.9987,-1.5254,1.0,-2.8055

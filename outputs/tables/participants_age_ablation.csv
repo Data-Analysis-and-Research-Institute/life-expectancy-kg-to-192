@@ -1,0 +1,13 @@
+Feature set,Model,CV_MAE,CV_MAE_sd,CV_RMSE,CV_R2,CV_R2_sd
+All 12 features,Baseline,6.241,1.352,9.152,-0.108,0.15
+All 12 features,Ridge,1.205,0.233,1.517,0.957,0.033
+All 12 features,Random Forest,0.66,0.536,1.898,0.954,0.041
+All 12 features,Gradient Boosting,0.516,0.527,1.549,0.964,0.032
+Without age,Baseline,6.241,1.352,9.152,-0.108,0.15
+Without age,Ridge,5.647,1.032,7.704,0.106,0.398
+Without age,Random Forest,4.356,1.263,6.974,0.254,0.442
+Without age,Gradient Boosting,4.76,1.253,7.72,0.088,0.504
+Age only,Baseline,6.241,1.352,9.152,-0.108,0.15
+Age only,Ridge,1.204,0.146,1.426,0.963,0.023
+Age only,Random Forest,0.31,0.212,0.908,0.989,0.007
+Age only,Gradient Boosting,0.203,0.249,0.674,0.986,0.017

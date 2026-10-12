@@ -1,0 +1,193 @@
+country,max_abs_year_change_e0,flagged
+Central African Republic,38.45,True
+Holy See,32.52,True
+South Sudan,17.24,True
+State of Palestine,11.6,True
+Armenia,6.39,False
+Bolivia (Plurinational State of),6.05,False
+Guyana,5.66,False
+Botswana,5.55,False
+Ecuador,5.5,False
+Afghanistan,5.22,False
+Andorra,5.16,False
+Libya,5.15,False
+Peru,5.15,False
+Somalia,4.95,False
+Eswatini,4.81,False
+Paraguay,4.69,False
+Cuba,4.63,False
+India,4.54,False
+Lebanon,4.49,False
+Mexico,4.41,False
+Suriname,4.39,False
+Nicaragua,4.07,False
+Bahamas,3.97,False
+Colombia,3.83,False
+Kazakhstan,3.62,False
+Saint Lucia,3.57,False
+Philippines,3.55,False
+Indonesia,3.54,False
+Dominica,3.51,False
+Syrian Arab Republic,3.49,False
+Guatemala,3.41,False
+Bangladesh,3.4,False
+South Africa,3.4,False
+North Macedonia,3.38,False
+Bahrain,3.33,False
+Azerbaijan,3.32,False
+Honduras,3.31,False
+Namibia,3.28,False
+Tunisia,3.22,False
+Iran (Islamic Republic of),3.19,False
+Uruguay,3.18,False
+Jordan,3.06,False
+Seychelles,3.03,False
+Mongolia,3.0,False
+Zambia,2.93,False
+Russian Federation,2.89,False
+Kuwait,2.88,False
+Maldives,2.84,False
+Republic of Moldova,2.83,False
+Oman,2.81,False
+Mozambique,2.76,False
+Tuvalu,2.73,False
+Serbia,2.72,False
+Slovakia,2.7,False
+Bulgaria,2.65,False
+Brunei Darussalam,2.61,False
+Georgia,2.61,False
+Aruba,2.61,False
+Lesotho,2.6,False
+Romania,2.58,False
+Algeria,2.54,False
+United Arab Emirates,2.52,False
+Dominican Republic,2.52,False
+Poland,2.51,False
+Montenegro,2.5,False
+Qatar,2.46,False
+Thailand,2.45,False
+Bosnia and Herzegovina,2.45,False
+Jamaica,2.43,False
+Latvia,2.41,False
+Tajikistan,2.39,False
+Panama,2.36,False
+Kyrgyzstan,2.32,False
+Malaysia,2.3,False
+Trinidad and Tobago,2.29,False
+Kenya,2.27,False
+Fiji,2.25,False
+Kiribati,2.24,False
+Chile,2.22,False
+Belarus,2.22,False
+Zimbabwe,2.2,False
+Republic of Korea,2.18,False
+Hungary,2.14,False
+El Salvador,2.12,False
+Saint Kitts and Nevis,2.1,False
+Czechia,2.08,False
+United States of America,2.06,False
+Egypt,2.05,False
+Greece,2.05,False
+Albania,1.99,False
+Argentina,1.99,False
+Guinea-Bissau,1.98,False
+Yemen,1.97,False
+Morocco,1.86,False
+Saint Vincent and the Grenadines,1.85,False
+Mauritius,1.84,False
+Türkiye,1.83,False
+Ukraine,1.81,False
+Costa Rica,1.81,False
+Italy,1.79,False
+Brazil,1.76,False
+Cabo Verde,1.73,False
+Djibouti,1.73,False
+Nepal,1.69,False
+Pakistan,1.66,False
+Iraq,1.65,False
+Estonia,1.62,False
+Ethiopia,1.6,False
+Spain,1.56,False
+New Zealand,1.54,False
+Mauritania,1.54,False
+Solomon Islands,1.53,False
+Iceland,1.52,False
+Sierra Leone,1.48,False
+Saudi Arabia,1.48,False
+Canada,1.44,False
+Viet Nam,1.42,False
+Lithuania,1.42,False
+Belize,1.39,False
+Vanuatu,1.36,False
+Chad,1.36,False
+Australia,1.36,False
+Haiti,1.35,False
+Malawi,1.33,False
+Congo,1.32,False
+Cameroon,1.31,False
+Cyprus,1.31,False
+Belgium,1.3,False
+Angola,1.3,False
+Comoros,1.3,False
+Côte d'Ivoire,1.29,False
+Portugal,1.28,False
+Cambodia,1.27,False
+Uganda,1.25,False
+Sudan,1.24,False
+Malta,1.24,False
+United Kingdom,1.23,False
+Croatia,1.21,False
+Liberia,1.21,False
+Sao Tome and Principe,1.18,False
+Venezuela (Bolivarian Republic of),1.12,False
+Sri Lanka,1.11,False
+Guinea,1.07,False
+Myanmar,1.07,False
+Gambia,1.03,False
+Timor-Leste,1.02,False
+France,0.99,False
+Ghana,0.98,False
+Togo,0.97,False
+Democratic Republic of the Congo,0.95,False
+Lao People's Democratic Republic,0.93,False
+Switzerland,0.93,False
+Barbados,0.93,False
+Austria,0.92,False
+Papua New Guinea,0.92,False
+Mali,0.92,False
+Senegal,0.91,False
+Equatorial Guinea,0.9,False
+Slovenia,0.88,False
+Burundi,0.87,False
+Benin,0.87,False
+Eritrea,0.86,False
+Germany,0.86,False
+Ireland,0.85,False
+Niger,0.85,False
+Japan,0.82,False
+Singapore,0.82,False
+Madagascar,0.81,False
+United Republic of Tanzania,0.79,False
+Netherlands,0.79,False
+Nauru,0.78,False
+Sweden,0.78,False
+Samoa,0.76,False
+Finland,0.74,False
+Denmark,0.71,False
+Norway,0.68,False
+Uzbekistan,0.67,False
+Gabon,0.66,False
+Rwanda,0.66,False
+Grenada,0.66,False
+Burkina Faso,0.66,False
+Dem. People's Republic of Korea,0.66,False
+Nigeria,0.63,False
+Turkmenistan,0.63,False
+Luxembourg,0.62,False
+China,0.54,False
+Tonga,0.5,False
+Anguilla,0.42,False
+Palau,0.42,False
+Bhutan,0.38,False
+Israel,0.38,False
+Antigua and Barbuda,0.36,False

@@ -1,0 +1,13 @@
+feature,rf_impurity,gb_permutation_mae
+age,0.9651,6.8207
+avg_steps_per_day,0.0116,-0.0026
+BMI,0.0089,0.0
+body_fat_percent,0.0074,-0.0056
+sleep_hours,0.0021,0.0007
+physical_activity,0.0021,0.0001
+body_water_kg,0.0014,0.0157
+muscle_mass_kg,0.0012,0.0053
+sex,0.0002,0.0
+smoking_status,0.0,0.0
+chronic_disease,0.0,0.0
+alcohol_units_per_week,0.0,0.0

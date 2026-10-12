@@ -1,0 +1,193 @@
+country,full_age_shap_share_%,full_top_non_age_feature,full_top_non_age_share_%,lf_cv_MAE_GB,lf_cv_MAE_Baseline,lf_gain_vs_baseline_%,lf_top1,lf_top2,fc_top1,fc_top1_share_%,fc_top2
+Afghanistan,98.538,body_fat_percent,0.497,6.668,5.942,-12.221,body_water_kg,sleep_hours,e0_lag1,32.239,d2
+Albania,98.532,body_water_kg,0.413,7.265,6.437,-12.868,body_water_kg,sleep_hours,d1,36.016,e0_lag1
+Algeria,98.328,physical_activity,0.447,7.252,6.418,-12.989,body_water_kg,sleep_hours,d2,40.117,e0_d1
+Andorra,98.527,physical_activity,0.453,7.421,6.625,-12.015,sleep_hours,body_water_kg,d2,34.771,e0_lag1
+Angola,98.705,body_fat_percent,0.411,6.595,5.852,-12.691,sleep_hours,body_water_kg,e0_lag1,39.259,e0_d1
+Anguilla,98.537,body_water_kg,0.41,7.402,6.599,-12.164,body_water_kg,sleep_hours,e0_lag1,22.082,d2
+Antigua and Barbuda,98.571,body_fat_percent,0.524,7.029,6.288,-11.791,body_water_kg,sleep_hours,e0_d1,37.45,d2
+Argentina,98.489,body_fat_percent,0.455,7.052,6.28,-12.291,sleep_hours,body_water_kg,d2,49.619,d1
+Armenia,98.562,body_fat_percent,0.437,7.178,6.393,-12.279,sleep_hours,body_water_kg,e0_lag1,51.976,d1
+Aruba,98.577,muscle_mass_kg,0.361,7.162,6.363,-12.562,body_water_kg,sleep_hours,d2,54.291,d1
+Australia,98.592,body_fat_percent,0.379,7.383,6.589,-12.051,body_water_kg,sleep_hours,e0_lag1,35.191,e0_d1
+Austria,98.446,muscle_mass_kg,0.439,7.314,6.478,-12.897,body_water_kg,sleep_hours,e0_d1,36.154,e0_lag1
+Azerbaijan,98.346,physical_activity,0.467,7.055,6.347,-11.153,body_water_kg,sleep_hours,e0_d1,28.187,d1
+Bahamas,98.257,avg_steps_per_day,0.483,6.712,5.99,-12.053,sleep_hours,body_water_kg,d2,36.988,e0_lag1
+Bahrain,98.431,body_fat_percent,0.539,7.255,6.474,-12.06,body_water_kg,sleep_hours,d2,38.727,d1
+Bangladesh,98.114,muscle_mass_kg,0.433,6.921,6.214,-11.386,sleep_hours,body_water_kg,e0_d1,31.217,d1
+Barbados,98.474,physical_activity,0.45,7.085,6.319,-12.119,body_water_kg,sleep_hours,e0_lag1,46.185,e0_d1
+Belarus,98.424,body_fat_percent,0.395,7.058,6.25,-12.924,sleep_hours,body_water_kg,e0_d1,28.273,d1
+Belgium,98.574,muscle_mass_kg,0.334,7.311,6.474,-12.939,body_water_kg,sleep_hours,d2,57.166,e0_d1
+Belize,98.559,body_water_kg,0.467,7.005,6.25,-12.075,sleep_hours,body_water_kg,d2,26.75,d1
+Benin,98.407,body_fat_percent,0.498,6.055,5.442,-11.258,body_water_kg,sleep_hours,e0_lag1,36.048,d2
+Bhutan,98.493,avg_steps_per_day,0.309,7.046,6.3,-11.842,body_water_kg,sleep_hours,e0_lag1,55.951,d2
+Bolivia (Plurinational State of),98.453,body_water_kg,0.392,6.685,5.963,-12.101,body_water_kg,sleep_hours,d2,44.962,e0_d1
+Bosnia and Herzegovina,98.439,physical_activity,0.486,7.181,6.416,-11.923,body_water_kg,sleep_hours,d2,51.387,d1
+Botswana,98.612,body_fat_percent,0.373,6.749,6.018,-12.154,sleep_hours,body_water_kg,d2,63.145,d1
+Brazil,98.354,body_fat_percent,0.457,6.8,6.118,-11.159,body_water_kg,sleep_hours,d2,33.76,d1
+Brunei Darussalam,98.485,body_fat_percent,0.575,7.014,6.291,-11.499,body_water_kg,sleep_hours,e0_d1,58.616,d2
+Bulgaria,98.601,body_fat_percent,0.35,7.123,6.321,-12.68,sleep_hours,body_water_kg,d2,47.094,e0_d1
+Burkina Faso,98.491,body_water_kg,0.39,6.176,5.529,-11.704,body_water_kg,sleep_hours,e0_lag1,33.869,d2
+Burundi,98.369,body_fat_percent,0.434,6.147,5.517,-11.409,body_water_kg,sleep_hours,d2,35.2,d1
+Cabo Verde,98.41,body_fat_percent,0.548,7.088,6.327,-12.033,body_water_kg,sleep_hours,e0_d1,54.876,d2
+Cambodia,98.69,body_fat_percent,0.38,6.606,5.921,-11.566,body_water_kg,sleep_hours,d2,36.305,d1
+Cameroon,98.342,body_fat_percent,0.474,6.54,5.794,-12.863,sleep_hours,body_water_kg,e0_d1,36.641,d2
+Canada,98.414,body_fat_percent,0.568,7.227,6.409,-12.759,body_water_kg,sleep_hours,e0_lag1,31.296,e0_d1
+Central African Republic,98.277,body_fat_percent,0.558,5.939,5.3,-12.066,body_water_kg,sleep_hours,d2,70.352,d1
+Chad,98.37,physical_activity,0.41,5.667,5.084,-11.484,body_water_kg,sleep_hours,e0_lag1,60.343,d2
+Chile,98.51,physical_activity,0.451,7.181,6.35,-13.086,body_water_kg,sleep_hours,d2,39.727,e0_lag1
+China,98.434,physical_activity,0.409,7.197,6.398,-12.479,body_water_kg,sleep_hours,d2,39.579,e0_d1
+Colombia,98.462,body_fat_percent,0.515,6.953,6.189,-12.334,sleep_hours,body_water_kg,d2,52.266,d1
+Comoros,98.47,body_fat_percent,0.51,6.74,5.991,-12.498,sleep_hours,body_water_kg,e0_lag1,29.431,e0_d1
+Congo,98.505,body_fat_percent,0.445,6.582,5.839,-12.732,body_water_kg,sleep_hours,e0_lag1,42.459,d2
+Costa Rica,98.496,muscle_mass_kg,0.325,7.039,6.276,-12.167,body_water_kg,sleep_hours,d2,50.639,d1
+Croatia,98.426,physical_activity,0.456,7.226,6.443,-12.145,body_water_kg,sleep_hours,d1,38.949,e0_lag1
+Cuba,98.484,physical_activity,0.487,7.115,6.371,-11.673,sleep_hours,body_water_kg,d2,67.332,d1
+Cyprus,98.386,muscle_mass_kg,0.448,7.417,6.561,-13.049,body_water_kg,sleep_hours,d2,36.066,e0_lag1
+Czechia,98.449,physical_activity,0.4,7.189,6.434,-11.738,body_water_kg,sleep_hours,d2,34.328,d1
+Côte d'Ivoire,98.44,BMI,0.442,6.334,5.64,-12.31,body_water_kg,sleep_hours,e0_lag1,51.562,e0_d1
+Dem. People's Republic of Korea,98.377,body_fat_percent,0.429,6.848,6.117,-11.956,body_water_kg,sleep_hours,d2,36.596,e0_lag1
+Democratic Republic of the Congo,98.301,physical_activity,0.49,6.148,5.506,-11.647,body_water_kg,sleep_hours,e0_lag1,34.673,e0_d1
+Denmark,98.418,physical_activity,0.382,7.285,6.516,-11.811,body_water_kg,sleep_hours,d1,31.24,e0_lag1
+Djibouti,98.543,body_fat_percent,0.353,6.372,5.712,-11.555,body_water_kg,sleep_hours,e0_lag1,49.179,e0_d1
+Dominica,98.451,body_fat_percent,0.507,6.983,6.24,-11.905,body_water_kg,sleep_hours,d2,44.994,d1
+Dominican Republic,98.415,physical_activity,0.434,6.859,6.138,-11.751,body_water_kg,sleep_hours,e0_d1,29.887,d2
+Ecuador,98.262,body_water_kg,0.494,6.951,6.167,-12.714,body_water_kg,sleep_hours,d1,32.44,e0_d1
+Egypt,98.339,physical_activity,0.459,7.121,6.31,-12.86,sleep_hours,body_water_kg,d2,39.948,e0_d1
+El Salvador,98.325,physical_activity,0.409,6.701,5.94,-12.795,sleep_hours,body_water_kg,d1,41.763,e0_d1
+Equatorial Guinea,98.338,body_fat_percent,0.515,6.544,5.827,-12.313,sleep_hours,body_water_kg,e0_lag1,42.178,e0_d1
+Eritrea,98.427,body_fat_percent,0.519,6.486,5.835,-11.151,sleep_hours,body_water_kg,d2,35.137,e0_lag1
+Estonia,98.393,physical_activity,0.363,7.121,6.375,-11.689,body_water_kg,sleep_hours,d2,45.587,d1
+Eswatini,98.521,body_fat_percent,0.386,6.31,5.645,-11.787,body_water_kg,sleep_hours,d2,47.026,e0_d1
+Ethiopia,98.553,avg_steps_per_day,0.358,6.46,5.781,-11.758,body_water_kg,sleep_hours,e0_lag1,33.087,d1
+Fiji,98.669,BMI,0.355,6.955,6.181,-12.521,sleep_hours,body_water_kg,d2,51.418,e0_d1
+Finland,98.463,body_fat_percent,0.593,7.266,6.433,-12.944,body_water_kg,sleep_hours,e0_d1,31.571,d1
+France,98.301,physical_activity,0.519,7.226,6.456,-11.925,body_water_kg,sleep_hours,e0_lag1,43.001,d2
+Gabon,98.457,body_fat_percent,0.481,6.763,5.971,-13.263,sleep_hours,body_water_kg,d2,42.807,e0_lag1
+Gambia,98.448,body_fat_percent,0.385,6.301,5.672,-11.086,body_water_kg,sleep_hours,e0_lag1,39.355,d2
+Georgia,98.496,body_water_kg,0.447,7.042,6.267,-12.356,sleep_hours,body_water_kg,d2,45.21,e0_d1
+Germany,98.389,muscle_mass_kg,0.426,7.257,6.488,-11.857,body_water_kg,sleep_hours,e0_lag1,33.254,d2
+Ghana,98.483,physical_activity,0.464,6.249,5.624,-11.097,body_water_kg,sleep_hours,e0_lag1,56.886,d2
+Greece,98.414,muscle_mass_kg,0.367,7.363,6.528,-12.795,body_water_kg,sleep_hours,d2,50.639,e0_lag1
+Grenada,98.488,body_fat_percent,0.497,7.049,6.25,-12.778,sleep_hours,body_water_kg,d2,41.196,e0_lag1
+Guatemala,98.401,physical_activity,0.423,6.705,6.052,-10.781,body_water_kg,sleep_hours,d2,58.218,d1
+Guinea,98.293,muscle_mass_kg,0.461,6.129,5.523,-10.987,body_water_kg,sleep_hours,e0_lag1,51.47,d2
+Guinea-Bissau,98.297,body_fat_percent,0.478,6.493,5.793,-12.086,sleep_hours,body_water_kg,e0_d1,46.716,e0_lag1
+Guyana,98.755,body_fat_percent,0.511,6.756,6.029,-12.062,body_water_kg,sleep_hours,d2,63.812,d1
+Haiti,98.542,body_fat_percent,0.357,6.488,5.814,-11.584,body_water_kg,sleep_hours,d2,25.371,e0_lag1
+Holy See,98.151,body_fat_percent,0.552,7.517,6.69,-12.365,body_water_kg,sleep_hours,d2,75.07,d1
+Honduras,98.383,body_fat_percent,0.488,6.939,6.201,-11.9,sleep_hours,body_water_kg,d2,32.075,e0_d1
+Hungary,98.512,body_fat_percent,0.407,7.159,6.411,-11.656,sleep_hours,body_water_kg,d2,50.537,d1
+Iceland,98.556,physical_activity,0.407,7.276,6.519,-11.606,body_water_kg,sleep_hours,e0_d1,42.9,e0_lag1
+India,98.721,body_fat_percent,0.344,6.944,6.216,-11.71,body_water_kg,sleep_hours,d2,60.085,d1
+Indonesia,98.663,body_fat_percent,0.401,6.917,6.124,-12.943,body_water_kg,sleep_hours,d2,46.538,e0_d1
+Iran (Islamic Republic of),98.271,physical_activity,0.609,7.084,6.321,-12.062,sleep_hours,body_water_kg,e0_lag1,41.272,d1
+Iraq,98.574,body_fat_percent,0.373,6.994,6.25,-11.906,body_water_kg,sleep_hours,e0_lag1,43.791,d2
+Ireland,98.354,physical_activity,0.682,7.355,6.487,-13.384,body_water_kg,sleep_hours,d2,38.787,d1
+Israel,98.432,body_fat_percent,0.568,7.247,6.426,-12.776,body_water_kg,sleep_hours,d2,35.815,e0_d1
+Italy,98.44,body_fat_percent,0.472,7.389,6.526,-13.223,body_water_kg,sleep_hours,d2,42.54,e0_lag1
+Jamaica,98.426,body_fat_percent,0.438,6.884,6.163,-11.697,body_water_kg,sleep_hours,d2,61.932,d1
+Japan,98.489,physical_activity,0.486,7.332,6.496,-12.873,body_water_kg,sleep_hours,e0_lag1,54.987,e0_d1
+Jordan,98.485,body_fat_percent,0.514,7.225,6.447,-12.073,body_water_kg,sleep_hours,d2,46.251,d1
+Kazakhstan,98.247,body_water_kg,0.472,6.997,6.222,-12.454,sleep_hours,body_water_kg,d2,37.152,e0_d1
+Kenya,98.265,body_fat_percent,0.557,6.256,5.578,-12.159,body_water_kg,sleep_hours,e0_d1,32.518,d2
+Kiribati,98.589,body_fat_percent,0.453,6.691,5.968,-12.105,body_water_kg,sleep_hours,d2,34.74,d1
+Kuwait,98.515,body_water_kg,0.353,7.199,6.425,-12.041,body_water_kg,sleep_hours,d2,57.781,d1
+Kyrgyzstan,98.485,body_fat_percent,0.425,7.02,6.249,-12.337,sleep_hours,body_water_kg,d1,31.993,e0_d1
+Lao People's Democratic Republic,98.583,body_fat_percent,0.438,6.88,6.104,-12.707,body_water_kg,sleep_hours,d2,34.903,e0_lag1
+Latvia,98.531,body_fat_percent,0.485,6.991,6.239,-12.059,sleep_hours,body_water_kg,d2,57.612,d1
+Lebanon,98.442,body_fat_percent,0.439,7.23,6.442,-12.224,body_water_kg,sleep_hours,d2,58.684,d1
+Lesotho,98.483,body_fat_percent,0.476,5.866,5.248,-11.787,sleep_hours,body_water_kg,d2,44.229,e0_d1
+Liberia,98.529,physical_activity,0.405,6.463,5.748,-12.423,body_water_kg,sleep_hours,e0_lag1,50.444,d2
+Libya,98.397,body_water_kg,0.39,6.713,5.983,-12.202,sleep_hours,body_water_kg,e0_d1,32.892,e0_lag1
+Lithuania,98.603,BMI,0.349,7.011,6.241,-12.328,sleep_hours,body_water_kg,e0_lag1,47.06,d2
+Luxembourg,98.363,physical_activity,0.572,7.183,6.437,-11.59,sleep_hours,body_water_kg,e0_d1,40.989,d2
+Madagascar,98.269,physical_activity,0.546,6.232,5.61,-11.095,body_water_kg,sleep_hours,e0_lag1,36.388,d2
+Malawi,98.708,body_fat_percent,0.335,6.658,5.928,-12.301,sleep_hours,body_water_kg,e0_lag1,38.068,e0_d1
+Malaysia,98.36,body_fat_percent,0.351,7.062,6.288,-12.322,body_water_kg,sleep_hours,d2,52.469,d1
+Maldives,98.367,body_fat_percent,0.493,7.274,6.531,-11.381,sleep_hours,body_water_kg,e0_d1,29.803,d1
+Mali,98.367,physical_activity,0.5,6.226,5.595,-11.288,sleep_hours,body_water_kg,e0_lag1,53.918,e0_d1
+Malta,98.451,physical_activity,0.626,7.367,6.538,-12.679,body_water_kg,sleep_hours,e0_lag1,42.312,e0_d1
+Mauritania,98.559,body_fat_percent,0.301,6.84,6.071,-12.674,sleep_hours,body_water_kg,e0_d1,40.769,e0_lag1
+Mauritius,98.351,body_water_kg,0.445,6.925,6.16,-12.414,sleep_hours,body_water_kg,d2,71.398,d1
+Mexico,98.347,body_water_kg,0.645,6.83,6.066,-12.598,body_water_kg,sleep_hours,e0_d1,26.638,d1
+Mongolia,98.648,body_fat_percent,0.357,6.86,6.123,-12.024,sleep_hours,body_water_kg,d2,48.848,d1
+Montenegro,98.661,body_fat_percent,0.388,7.17,6.388,-12.24,sleep_hours,body_water_kg,d2,58.144,d1
+Morocco,98.478,physical_activity,0.556,7.141,6.365,-12.182,body_water_kg,sleep_hours,e0_d1,34.522,e0_lag1
+Mozambique,98.43,body_water_kg,0.487,6.541,5.814,-12.499,sleep_hours,body_water_kg,d2,36.714,e0_d1
+Myanmar,98.247,physical_activity,0.504,6.527,5.876,-11.072,body_water_kg,sleep_hours,d2,28.582,d1
+Namibia,98.31,body_fat_percent,0.516,6.562,5.834,-12.471,body_water_kg,sleep_hours,d2,62.653,e0_d1
+Nauru,98.258,body_water_kg,0.483,5.811,5.187,-12.021,sleep_hours,body_water_kg,d2,49.253,d1
+Nepal,98.308,body_fat_percent,0.495,6.879,6.141,-12.033,sleep_hours,body_water_kg,d2,30.473,d1
+Netherlands,98.42,body_fat_percent,0.515,7.347,6.512,-12.833,body_water_kg,sleep_hours,d2,40.304,d1
+New Zealand,98.408,physical_activity,0.55,7.24,6.413,-12.897,body_water_kg,sleep_hours,e0_d1,54.15,d1
+Nicaragua,98.465,body_fat_percent,0.436,6.948,6.228,-11.564,sleep_hours,body_water_kg,e0_d1,31.074,d1
+Niger,98.391,physical_activity,0.485,6.546,5.849,-11.925,body_water_kg,sleep_hours,e0_lag1,45.474,d2
+Nigeria,98.341,physical_activity,0.42,5.639,5.03,-12.124,sleep_hours,body_water_kg,e0_lag1,44.665,d2
+North Macedonia,98.399,physical_activity,0.371,7.267,6.467,-12.363,body_water_kg,sleep_hours,d2,40.718,e0_d1
+Norway,98.38,physical_activity,0.549,7.318,6.516,-12.316,body_water_kg,sleep_hours,e0_lag1,42.139,e0_d1
+Oman,98.298,body_fat_percent,0.569,7.297,6.483,-12.551,sleep_hours,body_water_kg,d2,39.124,d1
+Pakistan,98.595,physical_activity,0.415,6.864,6.111,-12.311,body_water_kg,sleep_hours,e0_d1,42.264,e0_lag1
+Palau,98.333,body_fat_percent,0.513,6.958,6.207,-12.107,sleep_hours,body_water_kg,d2,47.842,d1
+Panama,98.424,body_fat_percent,0.438,6.95,6.241,-11.354,body_water_kg,sleep_hours,e0_lag1,30.754,d1
+Papua New Guinea,98.59,physical_activity,0.375,6.629,5.895,-12.448,body_water_kg,sleep_hours,e0_lag1,35.089,d2
+Paraguay,98.435,avg_steps_per_day,0.346,6.909,6.164,-12.077,sleep_hours,body_water_kg,d2,67.374,d1
+Peru,98.278,body_fat_percent,0.557,6.904,6.181,-11.694,body_water_kg,sleep_hours,d2,61.719,d1
+Philippines,98.515,body_fat_percent,0.479,6.898,6.116,-12.784,sleep_hours,body_water_kg,d2,64.284,d1
+Poland,98.265,body_fat_percent,0.441,7.149,6.357,-12.459,sleep_hours,body_water_kg,d2,32.51,d1
+Portugal,98.422,physical_activity,0.382,7.237,6.476,-11.757,body_water_kg,sleep_hours,e0_lag1,43.045,d2
+Qatar,98.063,body_fat_percent,0.513,7.26,6.544,-10.951,body_water_kg,sleep_hours,d2,37.905,e0_d1
+Republic of Korea,98.384,body_fat_percent,0.438,7.413,6.588,-12.521,sleep_hours,body_water_kg,e0_lag1,56.83,d2
+Republic of Moldova,98.389,body_fat_percent,0.438,6.982,6.18,-12.968,sleep_hours,body_water_kg,d2,39.729,d1
+Romania,98.63,body_fat_percent,0.328,7.147,6.337,-12.773,body_water_kg,sleep_hours,d2,36.979,e0_d1
+Russian Federation,98.423,body_fat_percent,0.449,6.691,5.94,-12.643,body_water_kg,sleep_hours,d2,35.526,d1
+Rwanda,98.461,body_fat_percent,0.639,6.76,5.958,-13.446,sleep_hours,body_water_kg,d2,47.95,d1
+Saint Kitts and Nevis,98.561,physical_activity,0.321,6.905,6.131,-12.634,body_water_kg,sleep_hours,d2,65.617,d1
+Saint Lucia,98.486,physical_activity,0.453,7.023,6.211,-13.08,sleep_hours,body_water_kg,d2,56.148,e0_d1
+Saint Vincent and the Grenadines,98.641,physical_activity,0.347,6.769,6.045,-11.986,body_water_kg,sleep_hours,e0_d1,28.851,d1
+Samoa,98.544,body_fat_percent,0.488,6.84,6.114,-11.878,sleep_hours,body_water_kg,d2,42.575,e0_d1
+Sao Tome and Principe,98.62,body_fat_percent,0.408,6.701,5.936,-12.887,sleep_hours,body_water_kg,e0_d1,27.064,d1
+Saudi Arabia,98.389,physical_activity,0.519,7.146,6.347,-12.594,body_water_kg,sleep_hours,d2,34.199,e0_d1
+Senegal,98.393,body_water_kg,0.341,6.742,6.035,-11.729,body_water_kg,sleep_hours,d2,44.17,d1
+Serbia,98.509,physical_activity,0.562,7.223,6.4,-12.853,sleep_hours,body_water_kg,d2,46.227,e0_d1
+Seychelles,98.476,body_water_kg,0.531,6.861,6.169,-11.218,body_water_kg,sleep_hours,d2,87.412,d1
+Sierra Leone,98.306,body_fat_percent,0.457,6.615,5.859,-12.908,sleep_hours,body_water_kg,e0_lag1,50.155,d2
+Singapore,98.455,muscle_mass_kg,0.397,7.318,6.505,-12.505,body_water_kg,sleep_hours,e0_lag1,28.698,d2
+Slovakia,98.467,physical_activity,0.376,7.147,6.392,-11.806,sleep_hours,body_water_kg,d2,59.622,d1
+Slovenia,98.48,physical_activity,0.532,7.313,6.487,-12.737,body_water_kg,sleep_hours,d2,40.2,d1
+Solomon Islands,98.435,body_fat_percent,0.417,6.87,6.118,-12.299,sleep_hours,body_water_kg,d2,25.823,d1
+Somalia,98.308,body_fat_percent,0.426,5.967,5.321,-12.141,sleep_hours,body_water_kg,d2,45.202,d1
+South Africa,98.354,body_fat_percent,0.609,6.343,5.626,-12.743,sleep_hours,body_water_kg,d2,55.148,d1
+South Sudan,98.404,physical_activity,0.433,5.892,5.275,-11.687,body_water_kg,sleep_hours,e0_lag1,40.19,d2
+Spain,98.507,physical_activity,0.551,7.323,6.527,-12.19,body_water_kg,sleep_hours,d2,59.183,e0_d1
+Sri Lanka,98.369,physical_activity,0.351,7.16,6.42,-11.532,body_water_kg,sleep_hours,d2,45.53,d1
+State of Palestine,98.457,physical_activity,0.688,5.459,4.951,-10.266,body_water_kg,sleep_hours,d2,41.667,d1
+Sudan,98.438,physical_activity,0.441,6.331,5.689,-11.278,body_water_kg,sleep_hours,e0_lag1,31.756,d2
+Suriname,98.428,body_water_kg,0.495,6.862,6.097,-12.543,body_water_kg,sleep_hours,d2,64.604,e0_d1
+Sweden,98.325,physical_activity,0.673,7.292,6.49,-12.362,sleep_hours,body_water_kg,d2,48.268,e0_d1
+Switzerland,98.426,physical_activity,0.694,7.302,6.527,-11.888,sleep_hours,body_water_kg,d2,53.443,d1
+Syrian Arab Republic,98.505,body_fat_percent,0.439,6.946,6.177,-12.446,body_water_kg,sleep_hours,d1,29.704,d2
+Tajikistan,98.384,physical_activity,0.453,7.031,6.298,-11.628,body_water_kg,sleep_hours,e0_d1,55.872,d2
+Thailand,98.193,body_fat_percent,0.524,6.764,6.016,-12.435,sleep_hours,body_water_kg,e0_lag1,56.094,d2
+Timor-Leste,98.606,physical_activity,0.369,6.816,6.045,-12.755,body_water_kg,sleep_hours,d2,41.908,e0_lag1
+Togo,98.332,physical_activity,0.405,6.282,5.633,-11.524,body_water_kg,sleep_hours,e0_lag1,46.822,d2
+Tonga,98.649,body_fat_percent,0.441,6.852,6.115,-12.049,body_water_kg,sleep_hours,e0_lag1,31.74,e0_d1
+Trinidad and Tobago,98.435,muscle_mass_kg,0.497,6.748,6.034,-11.836,body_water_kg,sleep_hours,d2,42.998,e0_d1
+Tunisia,98.471,physical_activity,0.431,7.162,6.354,-12.728,body_water_kg,sleep_hours,d2,56.104,d1
+Turkmenistan,98.349,body_fat_percent,0.563,6.958,6.226,-11.755,body_water_kg,sleep_hours,d2,40.967,e0_d1
+Tuvalu,98.578,body_fat_percent,0.424,7.057,6.298,-12.051,body_water_kg,sleep_hours,e0_d1,26.935,e0_lag1
+Türkiye,98.481,body_water_kg,0.37,7.114,6.365,-11.77,body_water_kg,sleep_hours,d1,38.547,d2
+Uganda,98.435,body_fat_percent,0.47,6.549,5.847,-12.018,sleep_hours,body_water_kg,e0_d1,26.399,d2
+Ukraine,98.312,body_fat_percent,0.524,6.563,5.823,-12.715,sleep_hours,body_water_kg,d2,64.156,d1
+United Arab Emirates,98.398,body_fat_percent,0.403,7.287,6.567,-10.968,body_water_kg,sleep_hours,d2,68.078,d1
+United Kingdom,98.362,muscle_mass_kg,0.373,7.13,6.431,-10.867,body_water_kg,sleep_hours,d2,37.047,d1
+United Republic of Tanzania,98.343,body_fat_percent,0.418,6.515,5.825,-11.835,body_water_kg,sleep_hours,d2,42.875,d1
+United States of America,98.549,body_fat_percent,0.492,6.994,6.245,-11.982,body_water_kg,sleep_hours,e0_lag1,30.759,d1
+Uruguay,98.406,muscle_mass_kg,0.523,6.962,6.218,-11.97,body_water_kg,sleep_hours,d2,69.801,d1
+Uzbekistan,98.497,physical_activity,0.291,7.009,6.222,-12.657,body_water_kg,sleep_hours,d1,29.175,e0_lag1
+Vanuatu,98.489,body_fat_percent,0.399,6.865,6.143,-11.739,body_water_kg,sleep_hours,d2,35.149,d1
+Venezuela (Bolivarian Republic of),98.427,physical_activity,0.432,6.474,5.804,-11.539,body_water_kg,sleep_hours,e0_lag1,36.275,d2
+Viet Nam,98.467,body_fat_percent,0.411,6.81,6.092,-11.787,body_water_kg,sleep_hours,d2,70.199,d1
+Yemen,98.314,physical_activity,0.404,6.779,6.117,-10.829,body_water_kg,sleep_hours,e0_d1,27.903,e0_lag1
+Zambia,98.362,muscle_mass_kg,0.413,6.682,6.001,-11.342,body_water_kg,sleep_hours,d2,30.887,e0_lag1
+Zimbabwe,98.52,body_fat_percent,0.514,6.258,5.572,-12.308,sleep_hours,body_water_kg,d2,40.944,e0_d1

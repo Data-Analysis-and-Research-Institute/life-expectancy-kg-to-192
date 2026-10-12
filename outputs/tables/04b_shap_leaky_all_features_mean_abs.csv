@@ -1,0 +1,13 @@
+,Random Forest,Gradient Boosting,share_RF_%,share_GB_%
+age,6.0488,6.1455,97.445,98.4848
+body_fat_percent,0.0329,0.0265,0.5299,0.4251
+BMI,0.0246,0.0195,0.3959,0.3132
+physical_activity,0.0069,0.0143,0.1117,0.229
+body_water_kg,0.0247,0.0133,0.3974,0.2126
+muscle_mass_kg,0.017,0.0117,0.2736,0.187
+avg_steps_per_day,0.0325,0.0085,0.5238,0.1367
+sleep_hours,0.0136,0.0007,0.2184,0.0116
+sex,0.0065,0.0,0.1043,0.0
+smoking_status,0.0,0.0,0.0,0.0
+alcohol_units_per_week,0.0,0.0,0.0,0.0
+chronic_disease,0.0,0.0,0.0,0.0

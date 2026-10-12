@@ -1,0 +1,193 @@
+country,iso3,cohort_mean_remaining_LE,cohort_mean_age_at_death,cohort_cv_MAE_Baseline,cohort_cv_MAE_Ridge,cohort_cv_MAE_Random Forest,cohort_cv_MAE_Gradient Boosting,cohort_gap_vs_KGZ,cohort_best_model
+Afghanistan,AFG,51.169,73.58,5.942,1.14,0.643,0.504,-2.345,Gradient Boosting
+Albania,ALB,60.854,83.265,6.437,1.202,0.735,0.646,7.34,Gradient Boosting
+Algeria,DZA,58.426,80.836,6.418,1.196,0.726,0.583,4.912,Gradient Boosting
+Andorra,AND,65.349,87.76,6.625,1.234,0.796,0.688,11.835,Gradient Boosting
+Angola,AGO,50.375,72.786,5.852,1.143,0.622,0.481,-3.139,Gradient Boosting
+Anguilla,AIA,60.657,83.067,6.599,1.227,0.79,0.649,7.142,Gradient Boosting
+Antigua and Barbuda,ATG,58.921,81.331,6.288,1.219,0.718,0.559,5.407,Gradient Boosting
+Argentina,ARG,58.757,81.168,6.28,1.181,0.735,0.549,5.243,Gradient Boosting
+Armenia,ARM,56.908,79.318,6.393,1.218,0.716,0.608,3.393,Gradient Boosting
+Aruba,ABW,57.894,80.304,6.363,1.196,0.752,0.644,4.379,Gradient Boosting
+Australia,AUS,64.555,86.965,6.589,1.225,0.758,0.65,11.04,Gradient Boosting
+Austria,AUT,62.385,84.795,6.478,1.208,0.717,0.678,8.87,Gradient Boosting
+Azerbaijan,AZE,56.283,78.694,6.347,1.193,0.751,0.551,2.769,Gradient Boosting
+Bahamas,BHS,56.349,78.759,5.99,1.17,0.667,0.503,2.834,Gradient Boosting
+Bahrain,BHR,62.514,84.924,6.474,1.202,0.781,0.614,9.0,Gradient Boosting
+Bangladesh,BGD,57.852,80.263,6.214,1.133,0.715,0.541,4.338,Gradient Boosting
+Barbados,BRB,57.341,79.752,6.319,1.205,0.719,0.599,3.827,Gradient Boosting
+Belarus,BLR,55.025,77.435,6.25,1.229,0.717,0.551,1.51,Gradient Boosting
+Belgium,BEL,62.821,85.231,6.474,1.212,0.743,0.644,9.306,Gradient Boosting
+Belize,BLZ,54.889,77.299,6.25,1.207,0.657,0.566,1.374,Gradient Boosting
+Benin,BEN,48.623,71.033,5.442,1.043,0.645,0.465,-4.892,Gradient Boosting
+Bhutan,BTN,55.21,77.621,6.3,1.189,0.703,0.563,1.696,Gradient Boosting
+Bolivia (Plurinational State of),BOL,52.809,75.22,5.963,1.157,0.655,0.556,-0.705,Gradient Boosting
+Bosnia and Herzegovina,BIH,58.669,81.079,6.416,1.206,0.761,0.564,5.155,Gradient Boosting
+Botswana,BWA,52.867,75.277,6.018,1.17,0.709,0.475,-0.647,Gradient Boosting
+Brazil,BRA,57.554,79.965,6.118,1.153,0.714,0.584,4.04,Gradient Boosting
+Brunei Darussalam,BRN,56.675,79.086,6.291,1.191,0.716,0.512,3.161,Gradient Boosting
+Bulgaria,BGR,56.466,78.876,6.321,1.208,0.709,0.56,2.951,Gradient Boosting
+Burkina Faso,BFA,48.224,70.634,5.529,1.064,0.64,0.575,-5.291,Gradient Boosting
+Burundi,BDI,49.4,71.811,5.517,1.057,0.643,0.448,-4.114,Gradient Boosting
+Cabo Verde,CPV,57.437,79.848,6.327,1.215,0.718,0.623,3.923,Gradient Boosting
+Cambodia,KHM,53.684,76.094,5.921,1.121,0.683,0.564,0.17,Gradient Boosting
+Cameroon,CMR,49.765,72.176,5.794,1.132,0.612,0.533,-3.749,Gradient Boosting
+Canada,CAN,63.571,85.982,6.409,1.203,0.717,0.61,10.057,Gradient Boosting
+Central African Republic,CAF,45.416,67.827,5.3,1.108,0.578,0.454,-8.098,Gradient Boosting
+Chad,TCD,45.305,67.716,5.084,0.98,0.596,0.482,-8.209,Gradient Boosting
+Chile,CHL,62.302,84.713,6.35,1.193,0.738,0.609,8.788,Gradient Boosting
+China,CHN,59.011,81.422,6.398,1.202,0.717,0.578,5.497,Gradient Boosting
+Colombia,COL,59.374,81.785,6.189,1.159,0.726,0.667,5.86,Gradient Boosting
+Comoros,COM,51.112,73.523,5.991,1.146,0.683,0.555,-2.402,Gradient Boosting
+Congo,COG,49.655,72.065,5.839,1.164,0.614,0.548,-3.86,Gradient Boosting
+Costa Rica,CRI,62.275,84.685,6.276,1.186,0.742,0.647,8.76,Gradient Boosting
+Croatia,HRV,59.183,81.594,6.443,1.207,0.693,0.563,5.669,Gradient Boosting
+Cuba,CUB,59.082,81.493,6.371,1.207,0.72,0.492,5.568,Gradient Boosting
+Cyprus,CYP,62.212,84.623,6.561,1.223,0.774,0.681,8.698,Gradient Boosting
+Czechia,CZE,60.383,82.794,6.434,1.207,0.744,0.584,6.869,Gradient Boosting
+Côte d'Ivoire,CIV,47.856,70.267,5.64,1.148,0.613,0.499,-5.658,Gradient Boosting
+Dem. People's Republic of Korea,PRK,55.903,78.313,6.117,1.152,0.713,0.553,2.388,Gradient Boosting
+Democratic Republic of the Congo,COD,49.27,71.68,5.506,1.054,0.563,0.517,-4.245,Gradient Boosting
+Denmark,DNK,62.549,84.96,6.516,1.214,0.743,0.625,9.035,Gradient Boosting
+Djibouti,DJI,51.383,73.794,5.712,1.088,0.633,0.478,-2.131,Gradient Boosting
+Dominica,DMA,54.137,76.548,6.24,1.169,0.771,0.539,0.623,Gradient Boosting
+Dominican Republic,DOM,56.698,79.109,6.138,1.172,0.659,0.583,3.184,Gradient Boosting
+Ecuador,ECU,59.095,81.505,6.167,1.165,0.719,0.63,5.581,Gradient Boosting
+Egypt,EGY,53.529,75.94,6.31,1.187,0.655,0.53,0.015,Gradient Boosting
+El Salvador,SLV,53.742,76.153,5.94,1.164,0.696,0.528,0.228,Gradient Boosting
+Equatorial Guinea,GNQ,49.916,72.327,5.827,1.139,0.637,0.505,-3.598,Gradient Boosting
+Eritrea,ERI,52.704,75.114,5.835,1.108,0.708,0.575,-0.811,Gradient Boosting
+Estonia,EST,59.801,82.212,6.375,1.207,0.718,0.549,6.287,Gradient Boosting
+Eswatini,SWZ,48.78,71.191,5.645,1.169,0.593,0.487,-4.734,Gradient Boosting
+Ethiopia,ETH,52.168,74.578,5.781,1.1,0.686,0.499,-1.346,Gradient Boosting
+Fiji,FJI,49.924,72.334,6.181,1.23,0.645,0.589,-3.591,Gradient Boosting
+Finland,FIN,62.511,84.921,6.433,1.2,0.715,0.596,8.996,Gradient Boosting
+France,FRA,64.108,86.519,6.456,1.21,0.717,0.607,10.594,Gradient Boosting
+Gabon,GAB,52.006,74.416,5.971,1.17,0.671,0.503,-1.509,Gradient Boosting
+Gambia,GMB,50.923,73.334,5.672,1.081,0.634,0.5,-2.591,Gradient Boosting
+Georgia,GEO,55.709,78.119,6.267,1.205,0.7,0.606,2.195,Gradient Boosting
+Germany,DEU,62.077,84.488,6.488,1.213,0.719,0.622,8.563,Gradient Boosting
+Ghana,GHA,50.448,72.859,5.624,1.074,0.606,0.546,-3.066,Gradient Boosting
+Greece,GRC,62.478,84.888,6.528,1.22,0.736,0.669,8.963,Gradient Boosting
+Grenada,GRD,57.028,79.438,6.25,1.198,0.706,0.529,3.514,Gradient Boosting
+Guatemala,GTM,54.95,77.36,6.052,1.155,0.687,0.536,1.436,Gradient Boosting
+Guinea,GIN,49.407,71.818,5.523,1.055,0.633,0.518,-4.107,Gradient Boosting
+Guinea-Bissau,GNB,50.331,72.741,5.793,1.132,0.663,0.517,-3.183,Gradient Boosting
+Guyana,GUY,52.764,75.175,6.029,1.206,0.652,0.467,-0.75,Gradient Boosting
+Haiti,HTI,50.114,72.525,5.814,1.124,0.645,0.528,-3.4,Gradient Boosting
+Holy See,VAT,68.777,91.187,6.69,1.248,0.774,0.639,15.263,Gradient Boosting
+Honduras,HND,54.726,77.136,6.201,1.179,0.724,0.529,1.211,Gradient Boosting
+Hungary,HUN,57.684,80.094,6.411,1.221,0.692,0.613,4.17,Gradient Boosting
+Iceland,ISL,62.997,85.408,6.519,1.227,0.734,0.632,9.483,Gradient Boosting
+India,IND,54.783,77.194,6.216,1.198,0.679,0.517,1.269,Gradient Boosting
+Indonesia,IDN,53.419,75.83,6.124,1.169,0.713,0.534,-0.095,Gradient Boosting
+Iran (Islamic Republic of),IRN,59.317,81.727,6.321,1.169,0.761,0.537,5.802,Gradient Boosting
+Iraq,IRQ,54.712,77.123,6.25,1.183,0.714,0.61,1.198,Gradient Boosting
+Ireland,IRL,63.165,85.575,6.487,1.215,0.777,0.62,9.651,Gradient Boosting
+Israel,ISR,63.206,85.617,6.426,1.202,0.734,0.65,9.692,Gradient Boosting
+Italy,ITA,64.279,86.69,6.526,1.217,0.775,0.621,10.765,Gradient Boosting
+Jamaica,JAM,53.515,75.925,6.163,1.188,0.698,0.597,0.0,Gradient Boosting
+Japan,JPN,65.503,87.913,6.496,1.214,0.748,0.645,11.989,Gradient Boosting
+Jordan,JOR,59.512,81.923,6.447,1.203,0.761,0.623,5.998,Gradient Boosting
+Kazakhstan,KAZ,55.748,78.158,6.222,1.209,0.695,0.565,2.233,Gradient Boosting
+Kenya,KEN,47.651,70.062,5.578,1.18,0.581,0.458,-5.863,Gradient Boosting
+Kiribati,KIR,51.459,73.869,5.968,1.146,0.664,0.517,-2.056,Gradient Boosting
+Kuwait,KWT,61.643,84.053,6.425,1.212,0.775,0.719,8.128,Gradient Boosting
+Kyrgyzstan,KGZ,53.514,75.925,6.249,1.213,0.664,0.582,0.0,Gradient Boosting
+Lao People's Democratic Republic,LAO,52.626,75.037,6.104,1.165,0.702,0.563,-0.888,Gradient Boosting
+Latvia,LVA,56.973,79.384,6.239,1.207,0.695,0.535,3.459,Gradient Boosting
+Lebanon,LBN,59.732,82.143,6.442,1.202,0.758,0.637,6.218,Gradient Boosting
+Lesotho,LSO,43.475,65.885,5.248,1.195,0.511,0.407,-10.04,Gradient Boosting
+Liberia,LBR,48.288,70.698,5.748,1.14,0.659,0.506,-5.227,Gradient Boosting
+Libya,LBY,53.747,76.157,5.983,1.126,0.703,0.519,0.232,Gradient Boosting
+Lithuania,LTU,56.754,79.164,6.241,1.211,0.71,0.509,3.239,Gradient Boosting
+Luxembourg,LUX,63.46,85.871,6.437,1.195,0.792,0.631,9.946,Gradient Boosting
+Madagascar,MDG,50.279,72.689,5.61,1.071,0.642,0.483,-3.235,Gradient Boosting
+Malawi,MWI,51.169,73.579,5.928,1.167,0.635,0.538,-2.346,Gradient Boosting
+Malaysia,MYS,58.022,80.433,6.288,1.194,0.691,0.639,4.508,Gradient Boosting
+Maldives,MDV,61.808,84.218,6.531,1.208,0.792,0.643,8.293,Gradient Boosting
+Mali,MLI,48.49,70.9,5.595,1.073,0.634,0.525,-5.025,Gradient Boosting
+Malta,MLT,64.978,87.389,6.538,1.223,0.81,0.66,11.464,Gradient Boosting
+Mauritania,MRT,52.094,74.504,6.071,1.157,0.679,0.454,-1.42,Gradient Boosting
+Mauritius,MUS,56.708,79.118,6.16,1.198,0.675,0.559,3.194,Gradient Boosting
+Mexico,MEX,56.825,79.236,6.066,1.167,0.71,0.602,3.311,Gradient Boosting
+Mongolia,MNG,53.282,75.693,6.123,1.21,0.668,0.523,-0.232,Gradient Boosting
+Montenegro,MNE,57.883,80.294,6.388,1.206,0.711,0.595,4.369,Gradient Boosting
+Morocco,MAR,57.213,79.623,6.365,1.193,0.75,0.613,3.698,Gradient Boosting
+Mozambique,MOZ,49.263,71.674,5.814,1.143,0.649,0.559,-4.251,Gradient Boosting
+Myanmar,MMR,50.823,73.234,5.876,1.133,0.687,0.543,-2.691,Gradient Boosting
+Namibia,NAM,51.128,73.539,5.834,1.171,0.61,0.453,-2.386,Gradient Boosting
+Nauru,NRU,45.474,67.884,5.187,0.976,0.581,0.462,-8.041,Gradient Boosting
+Nepal,NPL,53.05,75.461,6.141,1.17,0.671,0.533,-0.464,Gradient Boosting
+Netherlands,NLD,62.768,85.178,6.512,1.216,0.764,0.728,9.253,Gradient Boosting
+New Zealand,NZL,62.973,85.384,6.413,1.196,0.757,0.626,9.459,Gradient Boosting
+Nicaragua,NIC,56.675,79.086,6.228,1.193,0.71,0.531,3.161,Gradient Boosting
+Niger,NER,50.626,73.036,5.849,1.117,0.681,0.538,-2.889,Gradient Boosting
+Nigeria,NGA,44.759,67.17,5.03,0.971,0.582,0.475,-8.755,Gradient Boosting
+North Macedonia,MKD,58.19,80.6,6.467,1.215,0.681,0.586,4.675,Gradient Boosting
+Norway,NOR,63.651,86.061,6.516,1.211,0.753,0.627,10.136,Gradient Boosting
+Oman,OMN,61.357,83.768,6.483,1.2,0.78,0.74,7.843,Gradient Boosting
+Pakistan,PAK,52.762,75.172,6.111,1.167,0.686,0.514,-0.753,Gradient Boosting
+Palau,PLW,52.2,74.61,6.207,1.251,0.692,0.508,-1.314,Gradient Boosting
+Panama,PAN,61.929,84.34,6.241,1.18,0.723,0.566,8.415,Gradient Boosting
+Papua New Guinea,PNG,50.006,72.417,5.895,1.139,0.644,0.471,-3.508,Gradient Boosting
+Paraguay,PRY,55.766,78.177,6.164,1.165,0.685,0.565,2.252,Gradient Boosting
+Peru,PER,60.016,82.426,6.181,1.176,0.667,0.623,6.502,Gradient Boosting
+Philippines,PHL,52.588,74.998,6.116,1.19,0.696,0.53,-0.927,Gradient Boosting
+Poland,POL,59.388,81.798,6.357,1.211,0.759,0.555,5.873,Gradient Boosting
+Portugal,PRT,63.104,85.515,6.476,1.215,0.736,0.603,9.59,Gradient Boosting
+Qatar,QAT,63.446,85.857,6.544,1.204,0.773,0.68,9.932,Gradient Boosting
+Republic of Korea,KOR,65.543,87.954,6.588,1.225,0.802,0.699,12.029,Gradient Boosting
+Republic of Moldova,MDA,52.682,75.092,6.18,1.233,0.632,0.556,-0.832,Gradient Boosting
+Romania,ROU,56.784,79.195,6.337,1.213,0.676,0.588,3.27,Gradient Boosting
+Russian Federation,RUS,54.326,76.736,5.94,1.21,0.647,0.503,0.812,Gradient Boosting
+Rwanda,RWA,51.394,73.804,5.958,1.169,0.637,0.538,-2.12,Gradient Boosting
+Saint Kitts and Nevis,KNA,53.717,76.128,6.131,1.17,0.663,0.546,0.203,Gradient Boosting
+Saint Lucia,LCA,54.578,76.988,6.211,1.18,0.681,0.489,1.063,Gradient Boosting
+Saint Vincent and the Grenadines,VCT,52.98,75.39,6.045,1.165,0.678,0.501,-0.534,Gradient Boosting
+Samoa,WSM,53.505,75.916,6.114,1.17,0.683,0.563,-0.009,Gradient Boosting
+Sao Tome and Principe,STP,51.581,73.992,5.936,1.163,0.621,0.586,-1.933,Gradient Boosting
+Saudi Arabia,SAU,59.953,82.363,6.347,1.177,0.772,0.549,6.438,Gradient Boosting
+Senegal,SEN,52.327,74.737,6.035,1.149,0.694,0.63,-1.188,Gradient Boosting
+Serbia,SRB,57.594,80.004,6.4,1.213,0.694,0.55,4.079,Gradient Boosting
+Seychelles,SYC,54.45,76.86,6.169,1.191,0.724,0.575,0.936,Gradient Boosting
+Sierra Leone,SLE,49.927,72.337,5.859,1.116,0.631,0.558,-3.588,Gradient Boosting
+Singapore,SGP,64.754,87.165,6.505,1.207,0.73,0.577,11.24,Gradient Boosting
+Slovakia,SVK,59.239,81.649,6.392,1.21,0.733,0.612,5.725,Gradient Boosting
+Slovenia,SVN,62.24,84.651,6.487,1.212,0.77,0.613,8.726,Gradient Boosting
+Solomon Islands,SLB,52.658,75.069,6.118,1.167,0.693,0.544,-0.856,Gradient Boosting
+Somalia,SOM,48.21,70.621,5.321,1.032,0.601,0.491,-5.304,Gradient Boosting
+South Africa,ZAF,49.814,72.224,5.626,1.156,0.617,0.41,-3.7,Gradient Boosting
+South Sudan,SSD,47.384,69.794,5.275,1.016,0.615,0.51,-6.13,Gradient Boosting
+Spain,ESP,64.348,86.758,6.527,1.216,0.751,0.637,10.834,Gradient Boosting
+Sri Lanka,LKA,58.394,80.804,6.42,1.214,0.695,0.64,4.879,Gradient Boosting
+State of Palestine,PSE,49.872,72.282,4.951,0.974,0.604,0.543,-3.643,Gradient Boosting
+Sudan,SDN,51.407,73.818,5.689,1.087,0.698,0.521,-2.107,Gradient Boosting
+Suriname,SUR,55.646,78.056,6.097,1.18,0.655,0.518,2.131,Gradient Boosting
+Sweden,SWE,63.834,86.244,6.49,1.212,0.753,0.578,10.32,Gradient Boosting
+Switzerland,CHE,64.694,87.105,6.527,1.216,0.801,0.71,11.18,Gradient Boosting
+Syrian Arab Republic,SYR,54.775,77.185,6.177,1.165,0.713,0.618,1.26,Gradient Boosting
+Tajikistan,TJK,54.547,76.957,6.298,1.204,0.719,0.593,1.032,Gradient Boosting
+Thailand,THA,58.164,80.575,6.016,1.163,0.636,0.515,4.65,Gradient Boosting
+Timor-Leste,TLS,51.958,74.369,6.045,1.157,0.678,0.528,-1.556,Gradient Boosting
+Togo,TGO,48.649,71.059,5.633,1.076,0.677,0.455,-4.865,Gradient Boosting
+Tonga,TON,54.207,76.618,6.115,1.177,0.693,0.571,0.693,Gradient Boosting
+Trinidad and Tobago,TTO,55.425,77.836,6.034,1.166,0.69,0.584,1.911,Gradient Boosting
+Tunisia,TUN,57.877,80.288,6.354,1.19,0.68,0.686,4.363,Random Forest
+Turkmenistan,TKM,53.603,76.013,6.226,1.2,0.718,0.586,0.088,Gradient Boosting
+Tuvalu,TUV,50.481,72.891,6.298,1.333,0.634,0.503,-3.033,Gradient Boosting
+Türkiye,TUR,58.858,81.269,6.365,1.191,0.7,0.591,5.344,Gradient Boosting
+Uganda,UGA,52.171,74.581,5.847,1.174,0.634,0.535,-1.343,Gradient Boosting
+Ukraine,UKR,54.957,77.367,5.823,1.174,0.612,0.592,1.442,Gradient Boosting
+United Arab Emirates,ARE,64.03,86.44,6.567,1.226,0.757,0.694,10.515,Gradient Boosting
+United Kingdom,GBR,62.053,84.463,6.431,1.213,0.754,0.609,8.538,Gradient Boosting
+United Republic of Tanzania,TZA,50.878,73.288,5.825,1.17,0.653,0.52,-2.636,Gradient Boosting
+United States of America,USA,60.434,82.845,6.245,1.195,0.723,0.578,6.92,Gradient Boosting
+Uruguay,URY,59.286,81.696,6.218,1.177,0.686,0.562,5.772,Gradient Boosting
+Uzbekistan,UZB,53.976,76.387,6.222,1.191,0.676,0.533,0.462,Gradient Boosting
+Vanuatu,VUT,53.363,75.773,6.143,1.174,0.694,0.459,-0.152,Gradient Boosting
+Venezuela (Bolivarian Republic of),VEN,54.876,77.287,5.804,1.111,0.72,0.678,1.362,Gradient Boosting
+Viet Nam,VNM,57.127,79.537,6.092,1.148,0.754,0.525,3.612,Gradient Boosting
+Yemen,YEM,53.041,75.451,6.117,1.167,0.663,0.592,-0.474,Gradient Boosting
+Zambia,ZMB,51.119,73.53,6.001,1.154,0.701,0.569,-2.395,Gradient Boosting
+Zimbabwe,ZWE,47.092,69.503,5.572,1.168,0.571,0.525,-6.422,Gradient Boosting

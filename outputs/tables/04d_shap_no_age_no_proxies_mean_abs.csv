@@ -1,0 +1,10 @@
+,Random Forest,Gradient Boosting,share_RF_%,share_GB_%
+sleep_hours,1.2655,2.102,32.8922,29.7155
+body_water_kg,1.1714,2.0163,30.4463,28.5053
+avg_steps_per_day,0.467,1.2243,12.1374,17.3083
+muscle_mass_kg,0.6827,0.9091,17.7447,12.8515
+sex,0.183,0.7277,4.7554,10.2875
+physical_activity,0.0779,0.0942,2.0241,1.3319
+smoking_status,0.0,0.0,0.0,0.0
+alcohol_units_per_week,0.0,0.0,0.0,0.0
+chronic_disease,0.0,0.0,0.0,0.0

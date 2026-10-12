@@ -1,0 +1,189 @@
+country,Baseline,Linear trend,Ridge,Random Forest,Gradient Boosting,best_model,best_MAE
+Afghanistan,1.221,1.625,1.428,1.377,1.306,Baseline,1.221
+Albania,1.027,1.199,1.077,1.091,1.32,Baseline,1.027
+Algeria,1.004,1.161,1.615,1.529,1.591,Baseline,1.004
+Andorra,1.513,1.756,2.348,2.038,1.874,Baseline,1.513
+Angola,0.339,0.389,0.405,0.42,0.423,Baseline,0.339
+Anguilla,0.287,0.315,0.41,0.734,0.5,Baseline,0.287
+Antigua and Barbuda,0.139,0.174,0.318,0.456,0.319,Baseline,0.139
+Argentina,1.069,1.137,1.016,1.33,1.349,Ridge,1.016
+Armenia,1.594,1.953,2.244,1.922,2.302,Baseline,1.594
+Aruba,0.875,0.967,0.946,1.254,1.128,Baseline,0.875
+Australia,0.68,0.517,0.519,0.824,0.831,Linear trend,0.517
+Austria,0.426,0.339,0.391,0.427,0.428,Linear trend,0.339
+Azerbaijan,1.236,1.556,1.584,1.663,1.63,Baseline,1.236
+Bahamas,1.369,1.662,1.502,1.599,1.698,Baseline,1.369
+Bahrain,1.16,1.545,1.323,1.25,1.408,Baseline,1.16
+Bangladesh,1.068,1.37,1.432,1.512,1.552,Baseline,1.068
+Barbados,0.323,0.27,0.185,0.854,0.435,Ridge,0.185
+Belarus,0.775,1.207,1.141,1.286,1.21,Baseline,0.775
+Belgium,0.812,0.586,1.047,1.178,0.874,Linear trend,0.586
+Belize,0.723,0.817,0.753,1.152,0.785,Baseline,0.723
+Benin,0.283,0.292,0.382,0.292,0.358,Baseline,0.283
+Bhutan,0.142,0.047,0.22,0.205,0.364,Linear trend,0.047
+Bolivia (Plurinational State of),2.321,3.145,2.581,2.58,2.412,Baseline,2.321
+Bosnia and Herzegovina,1.354,1.652,1.374,1.689,1.649,Baseline,1.354
+Botswana,1.834,1.757,2.019,2.061,2.127,Linear trend,1.757
+Brazil,0.936,1.066,0.98,1.133,1.13,Baseline,0.936
+Brunei Darussalam,0.856,0.708,0.59,0.526,0.525,Gradient Boosting,0.525
+Bulgaria,1.349,1.494,1.277,1.324,1.418,Ridge,1.277
+Burkina Faso,0.276,0.275,0.326,0.218,0.247,Random Forest,0.218
+Burundi,0.34,0.385,0.329,0.315,0.325,Random Forest,0.315
+Cabo Verde,0.734,0.786,1.093,1.058,1.208,Baseline,0.734
+Cambodia,0.395,0.439,0.5,0.522,0.619,Baseline,0.395
+Cameroon,0.557,0.574,0.552,0.486,0.522,Random Forest,0.486
+Canada,0.586,0.462,0.659,0.53,0.572,Linear trend,0.462
+Chad,0.408,0.471,0.471,0.406,0.426,Random Forest,0.406
+Chile,0.848,1.105,0.986,0.979,0.908,Baseline,0.848
+China,0.119,0.208,0.182,0.133,0.185,Baseline,0.119
+Colombia,1.478,1.763,1.513,1.993,1.783,Baseline,1.478
+Comoros,0.379,0.411,0.428,0.458,0.423,Baseline,0.379
+Congo,0.453,0.51,0.55,0.519,0.522,Baseline,0.453
+Costa Rica,0.954,0.983,0.855,0.831,0.892,Random Forest,0.831
+Croatia,0.471,0.55,0.568,0.815,0.725,Baseline,0.471
+Cuba,1.648,1.702,1.823,1.906,1.956,Baseline,1.648
+Cyprus,0.466,0.444,0.312,0.565,0.678,Ridge,0.312
+Czechia,0.886,1.045,0.975,1.025,1.302,Baseline,0.886
+Côte d'Ivoire,0.388,0.438,0.526,0.397,0.416,Baseline,0.388
+Dem. People's Republic of Korea,0.191,0.267,0.444,0.339,0.318,Baseline,0.191
+Democratic Republic of the Congo,0.404,0.417,0.408,0.281,0.329,Random Forest,0.281
+Denmark,0.282,0.256,0.266,0.366,0.306,Linear trend,0.256
+Djibouti,0.49,0.625,0.587,0.503,0.534,Baseline,0.49
+Dominica,0.453,0.445,0.721,0.99,1.129,Linear trend,0.445
+Dominican Republic,0.853,0.933,0.869,1.017,1.248,Baseline,0.853
+Ecuador,1.862,2.412,2.634,2.52,2.565,Baseline,1.862
+Egypt,0.938,1.149,0.989,0.976,1.094,Baseline,0.938
+El Salvador,0.719,1.009,0.938,1.091,1.093,Baseline,0.719
+Equatorial Guinea,0.314,0.338,0.482,0.407,0.316,Baseline,0.314
+Eritrea,0.384,0.448,0.478,0.429,0.376,Gradient Boosting,0.376
+Estonia,0.661,0.52,0.546,0.627,0.736,Linear trend,0.52
+Eswatini,1.364,1.476,1.446,1.279,1.257,Gradient Boosting,1.257
+Ethiopia,0.462,0.469,0.472,0.62,0.578,Baseline,0.462
+Fiji,0.754,0.796,0.941,0.828,1.005,Baseline,0.754
+Finland,0.341,0.313,0.255,0.379,0.456,Ridge,0.255
+France,0.415,0.4,0.682,0.525,0.484,Linear trend,0.4
+Gabon,0.321,0.361,0.426,0.384,0.395,Baseline,0.321
+Gambia,0.478,0.49,0.475,0.412,0.313,Gradient Boosting,0.313
+Georgia,0.978,1.066,1.023,0.905,0.971,Random Forest,0.905
+Germany,0.541,0.373,0.625,0.393,0.48,Linear trend,0.373
+Ghana,0.275,0.331,0.369,0.364,0.344,Baseline,0.275
+Greece,0.737,0.682,0.447,0.545,0.655,Ridge,0.447
+Grenada,0.288,0.289,0.356,0.647,0.582,Baseline,0.288
+Guatemala,1.478,1.779,1.489,1.487,1.554,Baseline,1.478
+Guinea,0.299,0.366,0.395,0.395,0.351,Baseline,0.299
+Guinea-Bissau,0.65,0.78,0.893,0.802,0.754,Baseline,0.65
+Guyana,1.844,2.206,2.031,2.26,2.076,Baseline,1.844
+Haiti,0.633,0.685,0.616,0.664,0.523,Gradient Boosting,0.523
+Honduras,1.058,1.335,1.154,1.238,1.3,Baseline,1.058
+Hungary,0.937,1.001,0.927,1.1,1.021,Ridge,0.927
+Iceland,0.606,0.444,0.537,0.333,0.441,Random Forest,0.333
+India,1.488,1.651,1.637,1.669,1.753,Baseline,1.488
+Indonesia,1.175,1.462,1.256,1.326,1.391,Baseline,1.175
+Iran (Islamic Republic of),1.258,1.671,1.667,1.589,1.684,Baseline,1.258
+Iraq,0.785,0.797,1.245,0.756,0.663,Gradient Boosting,0.663
+Ireland,0.436,0.393,0.405,0.396,0.499,Linear trend,0.393
+Israel,0.19,0.303,0.346,0.347,0.387,Baseline,0.19
+Italy,0.917,0.713,1.13,1.249,1.131,Linear trend,0.713
+Jamaica,0.859,0.896,1.14,1.222,1.256,Baseline,0.859
+Japan,0.409,0.312,0.289,0.476,0.837,Ridge,0.289
+Jordan,1.22,1.413,1.281,1.465,1.397,Baseline,1.22
+Kazakhstan,1.473,1.884,1.576,1.663,1.784,Baseline,1.473
+Kenya,0.628,0.857,0.783,0.878,0.717,Baseline,0.628
+Kiribati,0.75,0.906,0.823,0.92,0.913,Baseline,0.75
+Kuwait,1.471,1.735,1.462,1.798,1.534,Ridge,1.462
+Kyrgyzstan,0.821,1.16,1.221,1.346,1.075,Baseline,0.821
+Lao People's Democratic Republic,0.305,0.259,0.348,0.459,0.636,Linear trend,0.259
+Latvia,1.063,0.943,0.918,0.916,0.976,Random Forest,0.916
+Lebanon,1.505,1.682,1.698,1.657,1.642,Baseline,1.505
+Lesotho,0.812,0.844,0.854,0.983,0.974,Baseline,0.812
+Liberia,0.21,0.301,0.31,0.354,0.24,Baseline,0.21
+Libya,1.001,1.011,0.998,0.907,0.834,Gradient Boosting,0.834
+Lithuania,0.784,0.913,0.733,1.13,1.144,Ridge,0.733
+Luxembourg,0.324,0.348,0.663,0.409,0.451,Baseline,0.324
+Madagascar,0.4,0.509,0.529,0.389,0.348,Gradient Boosting,0.348
+Malawi,0.545,0.55,0.55,0.516,0.52,Random Forest,0.516
+Malaysia,1.017,0.827,0.794,1.296,1.243,Ridge,0.794
+Maldives,0.932,1.155,1.088,1.046,1.127,Baseline,0.932
+Mali,0.326,0.404,0.466,0.376,0.373,Baseline,0.326
+Malta,0.531,0.709,0.853,0.782,0.694,Baseline,0.531
+Mauritania,0.486,0.664,0.693,0.732,0.568,Baseline,0.486
+Mauritius,0.906,0.803,0.726,0.802,0.505,Gradient Boosting,0.505
+Mexico,1.752,2.388,2.002,2.029,2.186,Baseline,1.752
+Mongolia,0.833,0.992,0.91,0.968,0.957,Baseline,0.833
+Montenegro,1.158,1.267,1.115,1.384,1.28,Ridge,1.115
+Morocco,0.661,0.816,0.998,0.976,0.909,Baseline,0.661
+Mozambique,0.78,0.859,0.793,0.85,0.803,Baseline,0.78
+Myanmar,0.392,0.376,0.475,0.372,0.302,Gradient Boosting,0.302
+Namibia,1.728,1.46,1.435,1.352,1.368,Random Forest,1.352
+Nauru,0.393,0.403,0.617,0.507,0.5,Baseline,0.393
+Nepal,0.519,0.61,0.558,0.516,0.618,Random Forest,0.516
+Netherlands,0.362,0.41,0.61,0.538,0.418,Baseline,0.362
+New Zealand,0.72,0.536,0.5,0.535,0.615,Ridge,0.5
+Nicaragua,1.441,2.083,1.93,1.873,1.816,Baseline,1.441
+Niger,0.387,0.427,0.41,0.275,0.284,Random Forest,0.275
+Nigeria,0.227,0.213,0.315,0.266,0.249,Linear trend,0.213
+North Macedonia,1.28,1.688,1.428,1.689,1.668,Baseline,1.28
+Norway,0.325,0.27,0.238,0.28,0.261,Ridge,0.238
+Oman,1.415,1.783,1.485,1.799,1.802,Baseline,1.415
+Pakistan,0.54,0.749,0.79,0.735,0.857,Baseline,0.54
+Palau,0.23,0.336,0.376,0.495,0.523,Baseline,0.23
+Panama,1.143,1.269,1.712,1.655,1.482,Baseline,1.143
+Papua New Guinea,0.48,0.515,0.494,0.492,0.474,Gradient Boosting,0.474
+Paraguay,1.929,1.945,1.908,1.869,1.799,Gradient Boosting,1.799
+Peru,2.105,2.489,2.118,1.979,1.896,Gradient Boosting,1.896
+Philippines,1.235,1.136,1.534,1.324,1.399,Linear trend,1.136
+Poland,0.99,1.194,1.067,1.269,1.416,Baseline,0.99
+Portugal,0.451,0.512,0.624,0.467,0.503,Baseline,0.451
+Qatar,0.965,1.232,1.501,1.375,1.275,Baseline,0.965
+Republic of Korea,0.801,0.652,0.734,0.753,0.71,Linear trend,0.652
+Republic of Moldova,0.837,0.903,0.921,0.936,1.068,Baseline,0.837
+Romania,1.039,1.217,1.071,1.4,1.312,Baseline,1.039
+Russian Federation,1.338,1.751,1.424,1.564,1.617,Baseline,1.338
+Rwanda,0.216,0.123,0.19,0.335,0.252,Linear trend,0.123
+Saint Kitts and Nevis,0.873,0.791,0.703,0.498,0.558,Random Forest,0.498
+Saint Lucia,1.244,1.255,1.57,1.419,1.41,Baseline,1.244
+Saint Vincent and the Grenadines,0.627,0.826,0.838,0.708,0.793,Baseline,0.627
+Samoa,0.223,0.324,0.408,0.391,0.49,Baseline,0.223
+Sao Tome and Principe,0.375,0.378,0.561,1.031,0.752,Baseline,0.375
+Saudi Arabia,0.646,0.862,0.694,0.758,0.576,Gradient Boosting,0.576
+Senegal,0.459,0.473,0.462,0.493,0.399,Gradient Boosting,0.399
+Serbia,1.3,1.493,1.309,1.809,1.633,Baseline,1.3
+Seychelles,1.351,1.306,1.405,1.709,1.748,Linear trend,1.306
+Sierra Leone,0.309,0.399,0.464,0.467,0.482,Baseline,0.309
+Singapore,0.283,0.286,0.318,0.572,0.344,Baseline,0.283
+Slovakia,1.387,1.432,1.304,1.46,1.265,Gradient Boosting,1.265
+Slovenia,0.513,0.562,0.827,1.076,0.934,Baseline,0.513
+Solomon Islands,0.469,0.653,0.604,0.489,0.511,Baseline,0.469
+Somalia,1.142,1.182,0.99,1.082,0.943,Gradient Boosting,0.943
+South Africa,1.592,1.76,1.711,1.898,1.943,Baseline,1.592
+Spain,0.835,0.626,1.071,1.031,0.817,Linear trend,0.626
+Sri Lanka,0.398,0.34,0.374,0.754,0.763,Linear trend,0.34
+Sudan,0.595,0.722,0.625,0.757,0.667,Baseline,0.595
+Suriname,1.712,1.455,1.896,1.638,1.595,Linear trend,1.455
+Sweden,0.473,0.35,0.808,0.489,0.671,Linear trend,0.35
+Switzerland,0.577,0.443,0.761,0.648,0.739,Linear trend,0.443
+Syrian Arab Republic,0.596,0.872,0.601,0.701,0.89,Baseline,0.596
+Tajikistan,0.98,1.11,1.453,0.821,0.9,Random Forest,0.821
+Thailand,0.551,0.587,0.428,0.762,0.778,Ridge,0.428
+Timor-Leste,0.369,0.296,0.391,0.382,0.476,Linear trend,0.296
+Togo,0.256,0.261,0.346,0.358,0.289,Baseline,0.256
+Tonga,0.192,0.211,0.256,0.302,0.366,Baseline,0.192
+Trinidad and Tobago,0.696,0.764,0.807,0.784,0.87,Baseline,0.696
+Tunisia,1.164,1.263,1.166,1.444,1.198,Baseline,1.164
+Turkmenistan,0.327,0.363,0.576,0.388,0.411,Baseline,0.327
+Tuvalu,0.648,0.803,0.814,0.78,0.668,Baseline,0.648
+Türkiye,0.868,0.987,0.923,1.205,1.121,Baseline,0.868
+Uganda,0.398,0.435,0.523,0.459,0.529,Baseline,0.398
+Ukraine,1.174,1.418,1.029,0.93,0.933,Random Forest,0.93
+United Arab Emirates,1.543,1.54,1.348,1.528,1.363,Ridge,1.348
+United Kingdom,0.522,0.481,0.861,1.066,0.724,Linear trend,0.481
+United Republic of Tanzania,0.398,0.296,0.424,0.559,0.515,Linear trend,0.296
+United States of America,0.908,1.135,1.083,1.146,1.06,Baseline,0.908
+Uruguay,1.22,1.027,1.095,1.021,0.837,Gradient Boosting,0.837
+Uzbekistan,0.487,0.468,0.668,0.562,0.556,Linear trend,0.468
+Vanuatu,0.406,0.513,0.523,0.527,0.477,Baseline,0.406
+Venezuela (Bolivarian Republic of),0.417,0.479,0.506,0.637,0.787,Baseline,0.417
+Viet Nam,0.61,0.537,0.793,0.931,0.876,Linear trend,0.537
+Yemen,0.684,0.813,0.758,0.581,0.649,Random Forest,0.581
+Zambia,0.82,0.8,0.82,0.797,0.833,Random Forest,0.797
+Zimbabwe,0.67,0.731,0.752,0.818,0.679,Baseline,0.67

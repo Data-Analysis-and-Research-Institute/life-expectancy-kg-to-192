@@ -1,0 +1,12 @@
+,spearman_rho_with_age,age_proxy
+sex,-0.033,False
+BMI,0.35,True
+sleep_hours,0.142,False
+avg_steps_per_day,-0.057,False
+physical_activity,-0.095,False
+smoking_status,0.007,False
+alcohol_units_per_week,0.015,False
+body_water_kg,0.13,False
+muscle_mass_kg,0.125,False
+body_fat_percent,0.241,True
+chronic_disease,-0.14,False

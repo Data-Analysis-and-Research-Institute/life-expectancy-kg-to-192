@@ -1,0 +1,61 @@
+ablation,Model,target_year,MAE,RMSE
+Full,Random Forest,2019,0.169,0.29
+Full,Gradient Boosting,2019,0.171,0.277
+Full,Random Forest,2020,0.934,1.314
+Full,Gradient Boosting,2020,0.932,1.322
+Full,Random Forest,2021,0.969,1.366
+Full,Gradient Boosting,2021,0.941,1.319
+Full,Random Forest,2022,1.816,2.335
+Full,Gradient Boosting,2022,1.769,2.274
+Full,Random Forest,2023,0.775,1.036
+Full,Gradient Boosting,2023,0.787,1.042
+"No momentum (d1, d2, e0_d1)",Random Forest,2019,0.19,0.306
+"No momentum (d1, d2, e0_d1)",Gradient Boosting,2019,0.194,0.307
+"No momentum (d1, d2, e0_d1)",Random Forest,2020,0.938,1.309
+"No momentum (d1, d2, e0_d1)",Gradient Boosting,2020,0.955,1.339
+"No momentum (d1, d2, e0_d1)",Random Forest,2021,0.952,1.321
+"No momentum (d1, d2, e0_d1)",Gradient Boosting,2021,0.845,1.197
+"No momentum (d1, d2, e0_d1)",Random Forest,2022,1.793,2.357
+"No momentum (d1, d2, e0_d1)",Gradient Boosting,2022,1.741,2.223
+"No momentum (d1, d2, e0_d1)",Random Forest,2023,0.873,1.208
+"No momentum (d1, d2, e0_d1)",Gradient Boosting,2023,0.704,0.955
+"No deep lags (ex_lag2, ex_lag3)",Random Forest,2019,0.169,0.29
+"No deep lags (ex_lag2, ex_lag3)",Gradient Boosting,2019,0.172,0.28
+"No deep lags (ex_lag2, ex_lag3)",Random Forest,2020,0.934,1.314
+"No deep lags (ex_lag2, ex_lag3)",Gradient Boosting,2020,0.934,1.323
+"No deep lags (ex_lag2, ex_lag3)",Random Forest,2021,0.971,1.368
+"No deep lags (ex_lag2, ex_lag3)",Gradient Boosting,2021,0.949,1.329
+"No deep lags (ex_lag2, ex_lag3)",Random Forest,2022,1.818,2.335
+"No deep lags (ex_lag2, ex_lag3)",Gradient Boosting,2022,1.762,2.26
+"No deep lags (ex_lag2, ex_lag3)",Random Forest,2023,0.776,1.038
+"No deep lags (ex_lag2, ex_lag3)",Gradient Boosting,2023,0.806,1.065
+No mortality (log_qx_lag1),Random Forest,2019,0.169,0.29
+No mortality (log_qx_lag1),Gradient Boosting,2019,0.174,0.28
+No mortality (log_qx_lag1),Random Forest,2020,0.933,1.314
+No mortality (log_qx_lag1),Gradient Boosting,2020,0.933,1.324
+No mortality (log_qx_lag1),Random Forest,2021,0.97,1.368
+No mortality (log_qx_lag1),Gradient Boosting,2021,0.958,1.339
+No mortality (log_qx_lag1),Random Forest,2022,1.813,2.331
+No mortality (log_qx_lag1),Gradient Boosting,2022,1.77,2.267
+No mortality (log_qx_lag1),Random Forest,2023,0.773,1.033
+No mortality (log_qx_lag1),Gradient Boosting,2023,0.793,1.043
+"No country e0 (e0_lag1, e0_d1)",Random Forest,2019,0.162,0.282
+"No country e0 (e0_lag1, e0_d1)",Gradient Boosting,2019,0.163,0.279
+"No country e0 (e0_lag1, e0_d1)",Random Forest,2020,0.937,1.327
+"No country e0 (e0_lag1, e0_d1)",Gradient Boosting,2020,0.939,1.332
+"No country e0 (e0_lag1, e0_d1)",Random Forest,2021,1.05,1.475
+"No country e0 (e0_lag1, e0_d1)",Gradient Boosting,2021,1.015,1.443
+"No country e0 (e0_lag1, e0_d1)",Random Forest,2022,1.917,2.419
+"No country e0 (e0_lag1, e0_d1)",Gradient Boosting,2022,1.91,2.435
+"No country e0 (e0_lag1, e0_d1)",Random Forest,2023,0.773,0.989
+"No country e0 (e0_lag1, e0_d1)",Gradient Boosting,2023,0.794,1.026
+"Level only (age, ex_lag1)",Random Forest,2019,0.169,0.279
+"Level only (age, ex_lag1)",Gradient Boosting,2019,0.17,0.281
+"Level only (age, ex_lag1)",Random Forest,2020,0.934,1.302
+"Level only (age, ex_lag1)",Gradient Boosting,2020,0.934,1.303
+"Level only (age, ex_lag1)",Random Forest,2021,0.863,1.208
+"Level only (age, ex_lag1)",Gradient Boosting,2021,0.831,1.179
+"Level only (age, ex_lag1)",Random Forest,2022,1.673,2.108
+"Level only (age, ex_lag1)",Gradient Boosting,2022,1.671,2.093
+"Level only (age, ex_lag1)",Random Forest,2023,0.687,0.915
+"Level only (age, ex_lag1)",Gradient Boosting,2023,0.587,0.835

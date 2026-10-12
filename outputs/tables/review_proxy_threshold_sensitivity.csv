@@ -1,0 +1,17 @@
+threshold,removed,n_features,CV,Model,gain_%,ci_low_%,ci_high_%
+0.1,"BMI, sleep_hours, body_water_kg, muscle_mass_kg, body_fat_percent, chronic_disease",5,random,Random Forest,-2.62,-6.73,1.08
+0.1,"BMI, sleep_hours, body_water_kg, muscle_mass_kg, body_fat_percent, chronic_disease",5,random,Gradient Boosting,-10.94,-22.82,-0.18
+0.1,"BMI, sleep_hours, body_water_kg, muscle_mass_kg, body_fat_percent, chronic_disease",5,group,Random Forest,-4.11,-5.85,-2.57
+0.1,"BMI, sleep_hours, body_water_kg, muscle_mass_kg, body_fat_percent, chronic_disease",5,group,Gradient Boosting,-15.62,-23.84,-7.92
+0.2,"BMI, body_fat_percent",9,random,Random Forest,-2.37,-10.5,4.91
+0.2,"BMI, body_fat_percent",9,random,Gradient Boosting,-12.34,-29.06,0.95
+0.2,"BMI, body_fat_percent",9,group,Random Forest,-1.4,-5.4,2.31
+0.2,"BMI, body_fat_percent",9,group,Gradient Boosting,-2.81,-12.35,6.24
+0.3,BMI,10,random,Random Forest,6.8,-2.6,15.33
+0.3,BMI,10,random,Gradient Boosting,4.19,-10.47,16.61
+0.3,BMI,10,group,Random Forest,0.62,-4.13,5.1
+0.3,BMI,10,group,Gradient Boosting,3.98,-5.79,13.22
+0.4,none,11,random,Random Forest,26.22,12.74,37.8
+0.4,none,11,random,Gradient Boosting,34.54,19.07,48.1
+0.4,none,11,group,Random Forest,21.85,14.84,28.11
+0.4,none,11,group,Gradient Boosting,35.85,26.86,43.75

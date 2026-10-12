@@ -1,0 +1,6 @@
+Model,MAE,RMSE,median_AE,p95_AE,max_AE
+Baseline,0.788,1.214,0.442,2.682,6.533
+Linear trend,0.875,1.271,0.539,2.702,6.774
+Ridge,0.894,1.352,0.542,3.054,7.402
+Random Forest,0.933,1.428,0.548,3.226,7.328
+Gradient Boosting,0.92,1.402,0.555,3.207,7.015

@@ -1,0 +1,9 @@
+target_year,criterion,selected,MAE,RMSE
+2020,MAE,Linear trend,0.949,1.337
+2020,RMSE,Gradient Boosting,0.932,1.322
+2021,MAE,Baseline,0.877,1.248
+2021,RMSE,Baseline,0.877,1.248
+2022,MAE,Baseline,1.465,1.89
+2022,RMSE,Baseline,1.465,1.89
+2023,MAE,Linear trend,1.063,1.373
+2023,RMSE,Linear trend,1.063,1.373
