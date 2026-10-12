@@ -1,0 +1,207 @@
+{\tiny\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{0.85}
+\begin{longtable}{l r r r c l r r l r l r l l}
+\caption{Prediction status and feature importance for all 192 countries (columns explained above).}\label{tab:app-countries}\\
+\toprule
+Country & $e^0_{23}$ & Rank & $\Delta$KGZ & $\geq$2019 & Best & MAE & Naive & Band & Age\% & Non-age top & LF gain & LF top-2 & Fcst. top (\%) \\
+\midrule
+\endfirsthead
+\multicolumn{14}{l}{\emph{(continued)}}\\
+\toprule
+Country & $e^0_{23}$ & Rank & $\Delta$KGZ & $\geq$2019 & Best & MAE & Naive & Band & Age\% & Non-age top & LF gain & LF top-2 & Fcst. top (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\textbf{Kyrgyzstan} & 71.8 & 116 & +0.0 & yes & Naive & 0.82 & 0.82 & Med. & 98.5 & body fat & -12 & sleep, water & $\Delta$(t-1) (32) \\
+Holy See$^\dagger$ & 88.7 & 1 & +17.0 & yes & -- & -- & -- & Unstable & 98.2 & body fat & -12 & water, sleep & $\Delta$(t-2) (75) \\
+Rep. of Korea & 85.1 & 2 & +13.4 & yes & Trend & 0.65 & 0.80 & Med. & 98.4 & body fat & -13 & sleep, water & e0(t-1) (57) \\
+Japan & 85.1 & 3 & +13.3 & yes & Ridge & 0.29 & 0.41 & High & 98.5 & activity & -13 & water, sleep & e0(t-1) (55) \\
+Andorra & 84.8 & 4 & +13.0 & yes & Naive & 1.51 & 1.51 & Low & 98.5 & activity & -12 & sleep, water & $\Delta$(t-2) (35) \\
+Singapore & 84.3 & 5 & +12.5 & yes & Naive & 0.28 & 0.28 & High & 98.5 & muscle & -13 & water, sleep & e0(t-1) (29) \\
+Switzerland & 84.2 & 6 & +12.4 & yes & Trend & 0.44 & 0.58 & High & 98.4 & activity & -12 & sleep, water & $\Delta$(t-2) (53) \\
+Australia & 84.1 & 7 & +12.3 & yes & Trend & 0.52 & 0.68 & Med. & 98.6 & body fat & -12 & water, sleep & e0(t-1) (35) \\
+Malta & 84.0 & 8 & +12.3 & yes & Naive & 0.53 & 0.53 & Med. & 98.5 & activity & -13 & water, sleep & e0(t-1) (42) \\
+Spain & 83.9 & 9 & +12.1 & yes & Trend & 0.63 & 0.83 & Med. & 98.5 & activity & -12 & water, sleep & $\Delta$(t-2) (59) \\
+Italy & 83.9 & 10 & +12.1 & yes & Trend & 0.71 & 0.92 & Med. & 98.4 & body fat & -13 & water, sleep & $\Delta$(t-2) (43) \\
+France & 83.5 & 11 & +11.8 & yes & Trend & 0.40 & 0.41 & High & 98.3 & activity & -12 & water, sleep & e0(t-1) (43) \\
+Sweden & 83.4 & 12 & +11.7 & yes & Trend & 0.35 & 0.47 & High & 98.3 & activity & -12 & sleep, water & $\Delta$(t-2) (48) \\
+UAE & 83.4 & 13 & +11.6 & yes & Ridge & 1.35 & 1.54 & Med. & 98.4 & body fat & -11 & water, sleep & $\Delta$(t-2) (68) \\
+Norway & 83.2 & 14 & +11.5 & yes & Ridge & 0.24 & 0.33 & High & 98.4 & activity & -12 & water, sleep & e0(t-1) (42) \\
+Canada & 82.9 & 15 & +11.1 & yes & Trend & 0.46 & 0.59 & High & 98.4 & body fat & -13 & water, sleep & e0(t-1) (31) \\
+Qatar & 82.8 & 16 & +11.0 & no & Naive & 0.96 & 0.96 & Med. & 98.1 & body fat & -11 & water, sleep & $\Delta$(t-2) (38) \\
+Iceland & 82.7 & 17 & +10.9 & no & RF & 0.33 & 0.61 & High & 98.6 & activity & -12 & water, sleep & $\Delta$e0(t-1) (43) \\
+Ireland & 82.7 & 18 & +10.9 & no & Trend & 0.39 & 0.44 & High & 98.4 & activity & -13 & water, sleep & $\Delta$(t-2) (39) \\
+Portugal & 82.6 & 19 & +10.8 & yes & Naive & 0.45 & 0.45 & High & 98.4 & activity & -12 & water, sleep & e0(t-1) (43) \\
+Israel & 82.6 & 20 & +10.8 & no & Naive & 0.19 & 0.19 & High & 98.4 & body fat & -13 & water, sleep & $\Delta$(t-2) (36) \\
+Luxembourg & 82.4 & 21 & +10.6 & yes & Naive & 0.32 & 0.32 & High & 98.4 & activity & -12 & sleep, water & $\Delta$e0(t-1) (41) \\
+Belgium & 82.3 & 22 & +10.5 & yes & Trend & 0.59 & 0.81 & Med. & 98.6 & muscle & -13 & water, sleep & $\Delta$(t-2) (57) \\
+Netherlands & 82.2 & 23 & +10.5 & yes & Naive & 0.36 & 0.36 & High & 98.4 & body fat & -13 & water, sleep & $\Delta$(t-2) (40) \\
+New Zealand & 82.2 & 24 & +10.4 & yes & Ridge & 0.50 & 0.72 & Med. & 98.4 & activity & -13 & water, sleep & $\Delta$e0(t-1) (54) \\
+Denmark & 82.0 & 25 & +10.3 & yes & Trend & 0.26 & 0.28 & High & 98.4 & activity & -12 & water, sleep & $\Delta$(t-1) (31) \\
+Finland & 82.0 & 26 & +10.2 & no & Ridge & 0.26 & 0.34 & High & 98.5 & body fat & -13 & water, sleep & $\Delta$e0(t-1) (32) \\
+Greece & 82.0 & 27 & +10.2 & yes & Ridge & 0.45 & 0.74 & High & 98.4 & muscle & -13 & water, sleep & $\Delta$(t-2) (51) \\
+Austria & 81.9 & 28 & +10.1 & no & Trend & 0.34 & 0.43 & High & 98.4 & muscle & -13 & water, sleep & $\Delta$e0(t-1) (36) \\
+Slovenia & 81.8 & 29 & +10.1 & yes & Naive & 0.51 & 0.51 & Med. & 98.5 & activity & -13 & water, sleep & $\Delta$(t-2) (40) \\
+Cyprus & 81.7 & 30 & +10.0 & yes & Ridge & 0.31 & 0.47 & High & 98.4 & muscle & -13 & water, sleep & $\Delta$(t-2) (36) \\
+Bahrain & 81.6 & 31 & +9.9 & yes & Naive & 1.16 & 1.16 & Med. & 98.4 & body fat & -12 & water, sleep & $\Delta$(t-2) (39) \\
+Germany & 81.6 & 32 & +9.8 & yes & Trend & 0.37 & 0.54 & High & 98.4 & muscle & -12 & water, sleep & e0(t-1) (33) \\
+Chile & 81.5 & 33 & +9.7 & yes & Naive & 0.85 & 0.85 & Med. & 98.5 & activity & -13 & water, sleep & $\Delta$(t-2) (40) \\
+United Kingdom & 81.4 & 34 & +9.7 & no & Trend & 0.48 & 0.52 & High & 98.4 & muscle & -11 & water, sleep & $\Delta$(t-2) (37) \\
+Costa Rica & 81.2 & 35 & +9.4 & yes & RF & 0.83 & 0.95 & Med. & 98.5 & muscle & -12 & water, sleep & $\Delta$(t-2) (51) \\
+Maldives & 81.2 & 36 & +9.4 & yes & Naive & 0.93 & 0.93 & Med. & 98.4 & body fat & -11 & sleep, water & $\Delta$e0(t-1) (30) \\
+Kuwait & 80.6 & 37 & +8.8 & yes & Ridge & 1.46 & 1.47 & Med. & 98.5 & water & -12 & water, sleep & $\Delta$(t-2) (58) \\
+Panama & 80.1 & 38 & +8.3 & yes & Naive & 1.14 & 1.14 & Med. & 98.4 & body fat & -11 & water, sleep & e0(t-1) (31) \\
+Oman & 80.0 & 39 & +8.3 & yes & Naive & 1.42 & 1.42 & Med. & 98.3 & body fat & -13 & sleep, water & $\Delta$(t-2) (39) \\
+Anguilla & 79.9 & 40 & +8.2 & yes & Naive & 0.29 & 0.29 & High & 98.5 & water & -12 & water, sleep & e0(t-1) (22) \\
+Czechia & 79.9 & 41 & +8.1 & yes & Naive & 0.89 & 0.89 & Med. & 98.4 & activity & -12 & water, sleep & $\Delta$(t-2) (34) \\
+Albania & 79.7 & 42 & +8.0 & yes & Naive & 1.03 & 1.03 & Med. & 98.5 & water & -13 & water, sleep & $\Delta$(t-1) (36) \\
+USA & 79.5 & 43 & +7.7 & yes & Naive & 0.91 & 0.91 & Med. & 98.5 & body fat & -12 & water, sleep & e0(t-1) (31) \\
+Estonia & 79.3 & 44 & +7.5 & yes & Trend & 0.52 & 0.66 & Med. & 98.4 & activity & -12 & water, sleep & $\Delta$(t-2) (46) \\
+Saudi Arabia & 79.0 & 45 & +7.2 & yes & GB & 0.58 & 0.65 & Med. & 98.4 & activity & -13 & water, sleep & $\Delta$(t-2) (34) \\
+Poland & 78.8 & 46 & +7.0 & yes & Naive & 0.99 & 0.99 & Med. & 98.3 & body fat & -12 & sleep, water & $\Delta$(t-2) (33) \\
+Croatia & 78.6 & 47 & +6.8 & yes & Naive & 0.47 & 0.47 & High & 98.4 & activity & -12 & water, sleep & $\Delta$(t-1) (39) \\
+Slovakia & 78.5 & 48 & +6.7 & yes & GB & 1.26 & 1.39 & Med. & 98.5 & activity & -12 & sleep, water & $\Delta$(t-2) (60) \\
+Uruguay & 78.3 & 49 & +6.5 & yes & GB & 0.84 & 1.22 & Med. & 98.4 & muscle & -12 & water, sleep & $\Delta$(t-2) (70) \\
+Cuba & 78.2 & 50 & +6.5 & yes & Naive & 1.65 & 1.65 & Low & 98.5 & activity & -12 & sleep, water & $\Delta$(t-2) (67) \\
+Peru & 78.2 & 51 & +6.5 & yes & GB & 1.90 & 2.10 & Low & 98.3 & body fat & -12 & water, sleep & $\Delta$(t-2) (62) \\
+Jordan & 78.1 & 52 & +6.3 & yes & Naive & 1.22 & 1.22 & Med. & 98.5 & body fat & -12 & water, sleep & $\Delta$(t-2) (46) \\
+China & 78.0 & 53 & +6.3 & no & Naive & 0.12 & 0.12 & High & 98.4 & activity & -12 & water, sleep & $\Delta$(t-2) (40) \\
+Bosnia \& Herz. & 78.0 & 54 & +6.2 & yes & Naive & 1.35 & 1.35 & Med. & 98.4 & activity & -12 & water, sleep & $\Delta$(t-2) (51) \\
+Lebanon & 77.9 & 55 & +6.1 & no & Naive & 1.50 & 1.50 & Low & 98.4 & body fat & -12 & water, sleep & $\Delta$(t-2) (59) \\
+Antigua \& Barbuda & 77.8 & 56 & +6.1 & yes & Naive & 0.14 & 0.14 & High & 98.6 & body fat & -12 & water, sleep & $\Delta$e0(t-1) (37) \\
+Colombia & 77.8 & 57 & +6.1 & yes & Naive & 1.48 & 1.48 & Med. & 98.5 & body fat & -12 & sleep, water & $\Delta$(t-2) (52) \\
+Iran & 77.8 & 58 & +6.1 & yes & Naive & 1.26 & 1.26 & Med. & 98.3 & activity & -12 & sleep, water & e0(t-1) (41) \\
+Sri Lanka & 77.6 & 59 & +5.8 & yes & Trend & 0.34 & 0.40 & High & 98.4 & activity & -12 & water, sleep & $\Delta$(t-2) (46) \\
+Ecuador & 77.6 & 60 & +5.8 & no & Naive & 1.86 & 1.86 & Low & 98.3 & water & -13 & water, sleep & $\Delta$(t-1) (32) \\
+Argentina & 77.5 & 61 & +5.7 & yes & Ridge & 1.02 & 1.07 & Med. & 98.5 & body fat & -12 & sleep, water & $\Delta$(t-2) (50) \\
+North Macedonia & 77.5 & 62 & +5.7 & yes & Naive & 1.28 & 1.28 & Med. & 98.4 & activity & -12 & water, sleep & $\Delta$(t-2) (41) \\
+Montenegro & 77.2 & 63 & +5.5 & yes & Ridge & 1.11 & 1.16 & Med. & 98.7 & body fat & -12 & sleep, water & $\Delta$(t-2) (58) \\
+Türkiye & 77.2 & 64 & +5.5 & no & Naive & 0.87 & 0.87 & Med. & 98.5 & water & -12 & water, sleep & $\Delta$(t-1) (39) \\
+Hungary & 77.1 & 65 & +5.3 & yes & Ridge & 0.93 & 0.94 & Med. & 98.5 & body fat & -12 & sleep, water & $\Delta$(t-2) (51) \\
+Malaysia & 77.0 & 66 & +5.2 & yes & Ridge & 0.79 & 1.02 & Med. & 98.4 & body fat & -12 & water, sleep & $\Delta$(t-2) (52) \\
+Serbia & 76.9 & 67 & +5.1 & yes & Naive & 1.30 & 1.30 & Med. & 98.5 & activity & -13 & sleep, water & $\Delta$(t-2) (46) \\
+Thailand & 76.7 & 68 & +5.0 & no & Ridge & 0.43 & 0.55 & High & 98.2 & body fat & -12 & sleep, water & e0(t-1) (56) \\
+Tunisia & 76.6 & 69 & +4.8 & yes & Naive & 1.16 & 1.16 & Med. & 98.5 & activity & -13 & water, sleep & $\Delta$(t-2) (56) \\
+Aruba & 76.6 & 70 & +4.8 & yes & Naive & 0.88 & 0.88 & Med. & 98.6 & muscle & -13 & water, sleep & $\Delta$(t-2) (54) \\
+Algeria & 76.4 & 71 & +4.6 & yes & Naive & 1.00 & 1.00 & Med. & 98.3 & activity & -13 & water, sleep & $\Delta$(t-2) (40) \\
+Latvia & 76.3 & 72 & +4.5 & yes & RF & 0.92 & 1.06 & Med. & 98.5 & body fat & -12 & sleep, water & $\Delta$(t-2) (58) \\
+Cabo Verde & 76.2 & 73 & +4.4 & yes & Naive & 0.73 & 0.73 & Med. & 98.4 & body fat & -12 & water, sleep & $\Delta$e0(t-1) (55) \\
+Barbados & 76.1 & 74 & +4.4 & no & Ridge & 0.18 & 0.32 & High & 98.5 & activity & -12 & water, sleep & e0(t-1) (46) \\
+Lithuania & 76.1 & 75 & +4.3 & no & Ridge & 0.73 & 0.78 & Med. & 98.6 & BMI & -12 & sleep, water & e0(t-1) (47) \\
+Romania & 76.0 & 76 & +4.2 & yes & Naive & 1.04 & 1.04 & Med. & 98.6 & body fat & -13 & water, sleep & $\Delta$(t-2) (37) \\
+Brazil & 75.9 & 77 & +4.2 & no & Naive & 0.94 & 0.94 & Med. & 98.4 & body fat & -11 & water, sleep & $\Delta$(t-2) (34) \\
+Armenia & 75.8 & 78 & +4.1 & yes & Naive & 1.59 & 1.59 & Low & 98.6 & body fat & -12 & sleep, water & e0(t-1) (52) \\
+Bulgaria & 75.6 & 79 & +3.9 & yes & Ridge & 1.28 & 1.35 & Med. & 98.6 & body fat & -13 & sleep, water & $\Delta$(t-2) (47) \\
+Brunei & 75.5 & 80 & +3.7 & yes & GB & 0.53 & 0.86 & Med. & 98.5 & body fat & -11 & water, sleep & $\Delta$e0(t-1) (59) \\
+Morocco & 75.4 & 81 & +3.7 & yes & Naive & 0.66 & 0.66 & Med. & 98.5 & activity & -12 & water, sleep & $\Delta$e0(t-1) (35) \\
+Grenada & 75.3 & 82 & +3.5 & yes & Naive & 0.29 & 0.29 & High & 98.5 & body fat & -13 & sleep, water & $\Delta$(t-2) (41) \\
+Mexico & 75.2 & 83 & +3.5 & yes & Naive & 1.75 & 1.75 & Low & 98.3 & water & -13 & water, sleep & $\Delta$e0(t-1) (27) \\
+Mauritius & 75.1 & 84 & +3.3 & yes & GB & 0.51 & 0.91 & Med. & 98.4 & water & -12 & sleep, water & $\Delta$(t-2) (71) \\
+Nicaragua & 75.1 & 85 & +3.3 & yes & Naive & 1.44 & 1.44 & Med. & 98.5 & body fat & -12 & sleep, water & $\Delta$e0(t-1) (31) \\
+Bangladesh & 75.0 & 86 & +3.2 & yes & Naive & 1.07 & 1.07 & Med. & 98.1 & muscle & -11 & sleep, water & $\Delta$e0(t-1) (31) \\
+Bahamas & 74.7 & 87 & +3.0 & yes & Naive & 1.37 & 1.37 & Med. & 98.3 & steps & -12 & sleep, water & $\Delta$(t-2) (37) \\
+Viet Nam & 74.7 & 88 & +2.9 & yes & Trend & 0.54 & 0.61 & Med. & 98.5 & body fat & -12 & water, sleep & $\Delta$(t-2) (70) \\
+Georgia & 74.6 & 89 & +2.8 & yes & RF & 0.91 & 0.98 & Med. & 98.5 & water & -12 & sleep, water & $\Delta$(t-2) (45) \\
+Kazakhstan & 74.5 & 90 & +2.7 & yes & Naive & 1.47 & 1.47 & Med. & 98.2 & water & -12 & sleep, water & $\Delta$(t-2) (37) \\
+Azerbaijan & 74.5 & 91 & +2.7 & yes & Naive & 1.24 & 1.24 & Med. & 98.3 & activity & -11 & water, sleep & $\Delta$e0(t-1) (28) \\
+Belarus & 74.4 & 92 & +2.7 & yes & Naive & 0.78 & 0.78 & Med. & 98.4 & body fat & -13 & sleep, water & $\Delta$e0(t-1) (28) \\
+Paraguay & 73.9 & 93 & +2.1 & yes & GB & 1.80 & 1.93 & Low & 98.4 & steps & -12 & sleep, water & $\Delta$(t-2) (67) \\
+Dominican Republic & 73.8 & 94 & +2.0 & yes & Naive & 0.85 & 0.85 & Med. & 98.4 & activity & -12 & water, sleep & $\Delta$e0(t-1) (30) \\
+Suriname & 73.8 & 95 & +2.0 & yes & Trend & 1.46 & 1.71 & Med. & 98.4 & water & -13 & water, sleep & $\Delta$(t-2) (65) \\
+DPR Korea & 73.7 & 96 & +1.9 & yes & Naive & 0.19 & 0.19 & High & 98.4 & body fat & -12 & water, sleep & $\Delta$(t-2) (37) \\
+Ukraine & 73.7 & 97 & +1.9 & no & RF & 0.93 & 1.17 & Med. & 98.3 & body fat & -13 & sleep, water & $\Delta$(t-2) (64) \\
+Belize & 73.6 & 98 & +1.9 & yes & Naive & 0.72 & 0.72 & Med. & 98.6 & water & -12 & sleep, water & $\Delta$(t-2) (27) \\
+Trinidad \& Tobago & 73.6 & 99 & +1.8 & yes & Naive & 0.70 & 0.70 & Med. & 98.4 & muscle & -12 & water, sleep & $\Delta$(t-2) (43) \\
+Russia & 73.3 & 100 & +1.6 & yes & Naive & 1.34 & 1.34 & Med. & 98.4 & body fat & -13 & water, sleep & $\Delta$(t-2) (36) \\
+Honduras & 73.0 & 101 & +1.2 & yes & Naive & 1.06 & 1.06 & Med. & 98.4 & body fat & -12 & sleep, water & $\Delta$(t-2) (32) \\
+Bhutan & 73.0 & 102 & +1.2 & yes & Trend & 0.05 & 0.14 & High & 98.5 & steps & -12 & water, sleep & e0(t-1) (56) \\
+Seychelles & 72.9 & 103 & +1.1 & yes & Trend & 1.31 & 1.35 & Med. & 98.5 & water & -11 & water, sleep & $\Delta$(t-2) (87) \\
+Tonga & 72.7 & 104 & +1.0 & yes & Naive & 0.19 & 0.19 & High & 98.6 & body fat & -12 & water, sleep & e0(t-1) (32) \\
+Guatemala & 72.7 & 105 & +0.9 & yes & Naive & 1.48 & 1.48 & Med. & 98.4 & activity & -11 & water, sleep & $\Delta$(t-2) (58) \\
+Saint Lucia & 72.6 & 106 & +0.9 & yes & Naive & 1.24 & 1.24 & Med. & 98.5 & activity & -13 & sleep, water & $\Delta$(t-2) (56) \\
+Venezuela & 72.6 & 107 & +0.8 & no & Naive & 0.42 & 0.42 & High & 98.4 & activity & -12 & water, sleep & e0(t-1) (36) \\
+Iraq & 72.4 & 108 & +0.6 & yes & GB & 0.66 & 0.79 & Med. & 98.6 & body fat & -12 & water, sleep & e0(t-1) (44) \\
+Uzbekistan & 72.4 & 109 & +0.6 & yes & Trend & 0.47 & 0.49 & High & 98.5 & activity & -13 & water, sleep & $\Delta$(t-1) (29) \\
+Syria & 72.3 & 110 & +0.5 & yes & Naive & 0.60 & 0.60 & Med. & 98.5 & body fat & -12 & water, sleep & $\Delta$(t-1) (30) \\
+St Kitts \& Nevis & 72.2 & 111 & +0.5 & yes & RF & 0.50 & 0.87 & High & 98.6 & activity & -13 & water, sleep & $\Delta$(t-2) (66) \\
+El Salvador & 72.1 & 112 & +0.4 & yes & Naive & 0.72 & 0.72 & Med. & 98.3 & activity & -13 & sleep, water & $\Delta$(t-1) (42) \\
+India & 72.1 & 113 & +0.4 & yes & Naive & 1.49 & 1.49 & Med. & 98.7 & body fat & -12 & water, sleep & $\Delta$(t-2) (60) \\
+Tajikistan & 71.9 & 114 & +0.1 & yes & RF & 0.82 & 0.98 & Med. & 98.4 & activity & -12 & water, sleep & $\Delta$e0(t-1) (56) \\
+Mongolia & 71.8 & 115 & +0.0 & yes & Naive & 0.83 & 0.83 & Med. & 98.6 & body fat & -12 & sleep, water & $\Delta$(t-2) (49) \\
+Egypt & 71.7 & 117 & -0.1 & yes & Naive & 0.94 & 0.94 & Med. & 98.3 & activity & -13 & sleep, water & $\Delta$(t-2) (40) \\
+Samoa & 71.7 & 118 & -0.1 & yes & Naive & 0.22 & 0.22 & High & 98.5 & body fat & -12 & sleep, water & $\Delta$(t-2) (43) \\
+Jamaica & 71.5 & 119 & -0.3 & no & Naive & 0.86 & 0.86 & Med. & 98.4 & body fat & -12 & water, sleep & $\Delta$(t-2) (62) \\
+Dominica & 71.4 & 120 & -0.4 & no & Trend & 0.45 & 0.45 & High & 98.5 & body fat & -12 & water, sleep & $\Delta$(t-2) (45) \\
+Vanuatu & 71.4 & 121 & -0.4 & yes & Naive & 0.41 & 0.41 & High & 98.5 & body fat & -12 & water, sleep & $\Delta$(t-2) (35) \\
+St Vincent \& Gren. & 71.4 & 122 & -0.4 & yes & Naive & 0.63 & 0.63 & Med. & 98.6 & activity & -12 & water, sleep & $\Delta$e0(t-1) (29) \\
+Indonesia & 71.2 & 123 & -0.6 & yes & Naive & 1.18 & 1.18 & Med. & 98.7 & body fat & -13 & water, sleep & $\Delta$(t-2) (47) \\
+Moldova & 71.2 & 124 & -0.6 & yes & Naive & 0.84 & 0.84 & Med. & 98.4 & body fat & -13 & sleep, water & $\Delta$(t-2) (40) \\
+Cambodia & 70.8 & 125 & -1.0 & yes & Naive & 0.40 & 0.40 & High & 98.7 & body fat & -12 & water, sleep & $\Delta$(t-2) (36) \\
+Solomon Islands & 70.5 & 126 & -1.2 & yes & Naive & 0.47 & 0.47 & High & 98.4 & body fat & -12 & sleep, water & $\Delta$(t-2) (26) \\
+Palau & 70.4 & 127 & -1.4 & yes & Naive & 0.23 & 0.23 & High & 98.3 & body fat & -12 & sleep, water & $\Delta$(t-2) (48) \\
+Nepal & 70.3 & 128 & -1.4 & yes & RF & 0.52 & 0.52 & Med. & 98.3 & body fat & -12 & sleep, water & $\Delta$(t-2) (30) \\
+Guyana & 70.3 & 129 & -1.5 & yes & Naive & 1.84 & 1.84 & Low & 98.8 & body fat & -12 & water, sleep & $\Delta$(t-2) (64) \\
+Turkmenistan & 70.2 & 130 & -1.6 & yes & Naive & 0.33 & 0.33 & High & 98.3 & body fat & -12 & water, sleep & $\Delta$(t-2) (41) \\
+Philippines & 69.9 & 131 & -1.9 & yes & Trend & 1.14 & 1.24 & Med. & 98.5 & body fat & -13 & sleep, water & $\Delta$(t-2) (64) \\
+Sao Tome \& Pr. & 69.8 & 132 & -2.0 & yes & Naive & 0.38 & 0.38 & High & 98.6 & body fat & -13 & sleep, water & $\Delta$e0(t-1) (27) \\
+Libya & 69.4 & 133 & -2.3 & no & GB & 0.83 & 1.00 & Med. & 98.4 & water & -12 & sleep, water & $\Delta$e0(t-1) (33) \\
+Yemen & 69.3 & 134 & -2.4 & yes & RF & 0.58 & 0.68 & Med. & 98.3 & activity & -11 & water, sleep & $\Delta$e0(t-1) (28) \\
+Botswana & 69.2 & 135 & -2.5 & yes & Trend & 1.76 & 1.83 & Low & 98.6 & body fat & -12 & sleep, water & $\Delta$(t-2) (63) \\
+Lao PDR & 69.0 & 136 & -2.8 & yes & Trend & 0.26 & 0.30 & High & 98.6 & body fat & -13 & water, sleep & $\Delta$(t-2) (35) \\
+Tuvalu & 68.9 & 137 & -2.8 & yes & Naive & 0.65 & 0.65 & Med. & 98.6 & body fat & -12 & water, sleep & $\Delta$e0(t-1) (27) \\
+Senegal & 68.7 & 138 & -3.1 & yes & GB & 0.40 & 0.46 & High & 98.4 & water & -12 & water, sleep & $\Delta$(t-2) (44) \\
+Eritrea & 68.7 & 139 & -3.1 & yes & GB & 0.38 & 0.38 & High & 98.4 & body fat & -11 & sleep, water & $\Delta$(t-2) (35) \\
+Bolivia & 68.6 & 140 & -3.1 & yes & Naive & 2.32 & 2.32 & Low & 98.5 & water & -12 & water, sleep & $\Delta$(t-2) (45) \\
+Mauritania & 68.5 & 141 & -3.3 & yes & Naive & 0.49 & 0.49 & High & 98.6 & body fat & -13 & sleep, water & $\Delta$e0(t-1) (41) \\
+Gabon & 68.4 & 142 & -3.4 & yes & Naive & 0.32 & 0.32 & High & 98.5 & body fat & -13 & sleep, water & $\Delta$(t-2) (43) \\
+Uganda & 68.3 & 143 & -3.4 & yes & Naive & 0.40 & 0.40 & High & 98.4 & body fat & -12 & sleep, water & $\Delta$e0(t-1) (26) \\
+Rwanda & 67.8 & 144 & -3.9 & yes & Trend & 0.12 & 0.22 & High & 98.5 & body fat & -13 & sleep, water & $\Delta$(t-2) (48) \\
+Timor-Leste & 67.7 & 145 & -4.1 & yes & Trend & 0.30 & 0.37 & High & 98.6 & activity & -13 & water, sleep & $\Delta$(t-2) (42) \\
+Pakistan & 67.7 & 146 & -4.1 & yes & Naive & 0.54 & 0.54 & Med. & 98.6 & activity & -12 & water, sleep & $\Delta$e0(t-1) (42) \\
+Namibia & 67.5 & 147 & -4.2 & yes & RF & 1.35 & 1.73 & Med. & 98.3 & body fat & -12 & water, sleep & $\Delta$(t-2) (63) \\
+Ethiopia & 67.4 & 148 & -4.4 & yes & Naive & 0.46 & 0.46 & High & 98.6 & steps & -12 & water, sleep & e0(t-1) (33) \\
+Malawi & 67.4 & 149 & -4.4 & yes & RF & 0.52 & 0.55 & Med. & 98.7 & body fat & -12 & sleep, water & e0(t-1) (38) \\
+Fiji & 67.3 & 150 & -4.4 & yes & Naive & 0.75 & 0.75 & Med. & 98.7 & BMI & -13 & sleep, water & $\Delta$(t-2) (51) \\
+Tanzania & 67.1 & 151 & -4.7 & yes & Trend & 0.30 & 0.40 & High & 98.3 & body fat & -12 & water, sleep & $\Delta$(t-2) (43) \\
+Myanmar & 66.9 & 152 & -4.9 & yes & GB & 0.30 & 0.39 & High & 98.2 & activity & -11 & water, sleep & $\Delta$(t-2) (29) \\
+Comoros & 66.8 & 153 & -4.9 & yes & Naive & 0.38 & 0.38 & High & 98.5 & body fat & -12 & sleep, water & e0(t-1) (29) \\
+Kiribati & 66.5 & 154 & -5.2 & yes & Naive & 0.75 & 0.75 & Med. & 98.6 & body fat & -12 & water, sleep & $\Delta$(t-2) (35) \\
+Zambia & 66.4 & 155 & -5.4 & yes & RF & 0.80 & 0.82 & Med. & 98.4 & muscle & -11 & water, sleep & $\Delta$(t-2) (31) \\
+Papua New Guinea & 66.2 & 156 & -5.6 & yes & GB & 0.47 & 0.48 & High & 98.6 & activity & -12 & water, sleep & e0(t-1) (35) \\
+South Africa & 66.2 & 157 & -5.6 & no & Naive & 1.59 & 1.59 & Low & 98.4 & body fat & -13 & sleep, water & $\Delta$(t-2) (55) \\
+Sudan & 66.1 & 158 & -5.6 & yes & Naive & 0.59 & 0.59 & Med. & 98.4 & activity & -11 & water, sleep & e0(t-1) (32) \\
+Afghanistan & 66.1 & 159 & -5.7 & yes & Naive & 1.22 & 1.22 & Med. & 98.5 & body fat & -12 & water, sleep & e0(t-1) (32) \\
+Djibouti & 66.0 & 160 & -5.7 & yes & Naive & 0.49 & 0.49 & High & 98.5 & body fat & -12 & water, sleep & e0(t-1) (49) \\
+Gambia & 65.9 & 161 & -5.8 & yes & GB & 0.31 & 0.48 & High & 98.4 & body fat & -11 & water, sleep & e0(t-1) (39) \\
+Congo & 65.8 & 162 & -5.9 & yes & Naive & 0.45 & 0.45 & High & 98.5 & body fat & -13 & water, sleep & e0(t-1) (42) \\
+Ghana & 65.5 & 163 & -6.2 & yes & Naive & 0.28 & 0.28 & High & 98.5 & activity & -11 & water, sleep & e0(t-1) (57) \\
+Palestine$^\dagger$ & 65.2 & 164 & -6.5 & no & -- & -- & -- & Unstable & 98.5 & activity & -10 & water, sleep & $\Delta$(t-2) (42) \\
+Haiti & 65.0 & 165 & -6.8 & yes & GB & 0.52 & 0.63 & Med. & 98.5 & body fat & -12 & water, sleep & $\Delta$(t-2) (25) \\
+Angola & 64.7 & 166 & -7.1 & yes & Naive & 0.34 & 0.34 & High & 98.7 & body fat & -13 & sleep, water & e0(t-1) (39) \\
+Eswatini & 64.2 & 167 & -7.6 & yes & GB & 1.26 & 1.36 & Med. & 98.5 & body fat & -12 & water, sleep & $\Delta$(t-2) (47) \\
+Guinea-Bissau & 64.1 & 168 & -7.6 & yes & Naive & 0.65 & 0.65 & Med. & 98.3 & body fat & -12 & sleep, water & $\Delta$e0(t-1) (47) \\
+Equatorial Guinea & 63.8 & 169 & -8.0 & yes & Naive & 0.31 & 0.31 & High & 98.3 & body fat & -12 & sleep, water & e0(t-1) (42) \\
+Cameroon & 63.7 & 170 & -8.0 & yes & RF & 0.49 & 0.56 & High & 98.3 & body fat & -13 & sleep, water & $\Delta$e0(t-1) (37) \\
+Burundi & 63.7 & 171 & -8.0 & yes & RF & 0.32 & 0.34 & High & 98.4 & body fat & -11 & water, sleep & $\Delta$(t-2) (35) \\
+Madagascar & 63.7 & 172 & -8.1 & yes & GB & 0.35 & 0.40 & High & 98.3 & activity & -11 & water, sleep & e0(t-1) (36) \\
+Kenya & 63.6 & 173 & -8.1 & yes & Naive & 0.63 & 0.63 & Med. & 98.3 & body fat & -12 & water, sleep & $\Delta$e0(t-1) (33) \\
+Mozambique & 63.6 & 174 & -8.1 & yes & Naive & 0.78 & 0.78 & Med. & 98.4 & water & -12 & sleep, water & $\Delta$(t-2) (37) \\
+Nauru & 62.9 & 175 & -8.9 & no & Naive & 0.39 & 0.39 & High & 98.3 & water & -12 & sleep, water & $\Delta$(t-2) (49) \\
+Togo & 62.8 & 176 & -9.0 & yes & Naive & 0.26 & 0.26 & High & 98.3 & activity & -12 & water, sleep & e0(t-1) (47) \\
+Zimbabwe & 62.8 & 177 & -9.0 & yes & Naive & 0.67 & 0.67 & Med. & 98.5 & body fat & -12 & sleep, water & $\Delta$(t-2) (41) \\
+Liberia & 62.2 & 178 & -9.6 & yes & Naive & 0.21 & 0.21 & High & 98.5 & activity & -12 & water, sleep & e0(t-1) (50) \\
+Côte d'Ivoire & 62.0 & 179 & -9.8 & yes & Naive & 0.39 & 0.39 & High & 98.4 & BMI & -12 & water, sleep & e0(t-1) (52) \\
+DR Congo & 61.9 & 180 & -9.8 & yes & RF & 0.28 & 0.40 & High & 98.3 & activity & -12 & water, sleep & e0(t-1) (35) \\
+Sierra Leone & 61.9 & 181 & -9.9 & yes & Naive & 0.31 & 0.31 & High & 98.3 & body fat & -13 & sleep, water & e0(t-1) (50) \\
+Niger & 61.2 & 182 & -10.6 & yes & RF & 0.28 & 0.39 & High & 98.4 & activity & -12 & water, sleep & e0(t-1) (45) \\
+Burkina Faso & 61.1 & 183 & -10.6 & yes & RF & 0.22 & 0.28 & High & 98.5 & water & -12 & water, sleep & e0(t-1) (34) \\
+Benin & 60.8 & 184 & -11.0 & yes & Naive & 0.28 & 0.28 & High & 98.4 & body fat & -11 & water, sleep & e0(t-1) (36) \\
+Guinea & 60.8 & 185 & -11.0 & yes & Naive & 0.30 & 0.30 & High & 98.3 & muscle & -11 & water, sleep & e0(t-1) (51) \\
+Mali & 60.4 & 186 & -11.3 & yes & Naive & 0.33 & 0.33 & High & 98.4 & activity & -11 & sleep, water & e0(t-1) (54) \\
+Somalia & 58.9 & 187 & -12.9 & yes & GB & 0.94 & 1.14 & Med. & 98.3 & body fat & -12 & sleep, water & $\Delta$(t-2) (45) \\
+South Sudan$^\dagger$ & 58.1 & 188 & -13.7 & no & -- & -- & -- & Unstable & 98.4 & activity & -12 & water, sleep & e0(t-1) (40) \\
+Lesotho & 57.4 & 189 & -14.4 & yes & Naive & 0.81 & 0.81 & Med. & 98.5 & body fat & -12 & sleep, water & $\Delta$(t-2) (44) \\
+Central African Rep.$^\dagger$ & 57.4 & 190 & -14.4 & yes & -- & -- & -- & Unstable & 98.3 & body fat & -12 & water, sleep & $\Delta$(t-2) (70) \\
+Chad & 55.4 & 191 & -16.4 & yes & RF & 0.41 & 0.41 & High & 98.4 & activity & -11 & water, sleep & e0(t-1) (60) \\
+Nigeria & 54.5 & 192 & -17.3 & yes & Trend & 0.21 & 0.23 & High & 98.3 & activity & -12 & sleep, water & e0(t-1) (45) \\
+\end{longtable}}
